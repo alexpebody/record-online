@@ -1,0 +1,18 @@
+* { padding:0;margin:0; }
+body { background-color: #313131; width: 222px; height: 59px; overflow: hidden; }
+.pl_controlls { width: 222px; height: 59px; float: left; }
+.pl_controlls .play_pause { width: 135px; height: 59px; float: left; background-image: url('player_line_but.png'); background-repeat: no-repeat; }
+.pl_controlls .play_pause.playing { background-position: 0 -59px; }
+.pl_controlls .play_pause.noready { background-position: 0 -118px !important; }
+.pl_controlls .volume { width: 21px; height: 59px; float: left; background-image: url('vol_back.png'); background-position: center; background-repeat: no-repeat; margin-left: 2px; }
+.pl_controlls .volume .vol_zapo { position: absolute; width: 21px; height: 59px; background-image: url('vol_zapo.png'); background-position: top center; background-repeat: repeat-y; }
+.pl_controlls .volume .vol_razd { position: absolute; width: 20px; height: 20px; background-image: url('vol_back.png'); background-position: center; background-repeat: no-repeat; border-bottom: 2px #a6a5a5 solid; margin-left: 1px; }
+.pl_controlls .volume .vol_clickable { position: absolute; width: 20px; height: 59px; margin-left: 1px; }
+.pl_controlls .bitrate { float: left; width: 62px; height: 59px; border-right: 1px #323232 solid; }
+.pl_controlls .bitrate div { cursor: pointer; width: 44px; height: 15px; background-image: url('bitrate.png'); background-repeat: no-repeat; margin: 3px 10px; }
+.pl_controlls .bitrate div.l32 { background-position: -57px 0px; }
+.pl_controlls .bitrate div.l64 { background-position: -57px -21px; }
+.pl_controlls .bitrate div.l128 { background-position: -57px -41px; }
+.pl_controlls .bitrate div.l32.active { background-position: 0px 0px; }
+.pl_controlls .bitrate div.l64.active { background-position: 0px -21px; }
+.pl_controlls .bitrate div.l128.active { background-position: 0px -41px; }

@@ -1,0 +1,134 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+.wrapper { width: 800px; font-family: Arial; font-size: 12px; }
+	.pole_top { width: 100%; height: 58px; background-color: #041421; overflow: hidden; }
+		.pole_top .logo { padding: 8px; float: left; border-right: 1px #1b3143 solid; overflow: hidden; cursor: pointer; }
+		.pole_top .controll { float: left; margin: 12px; cursor: pointer; }
+			.pole_top .controll.play { background-image: url('img/play.png'); background-repeat: no-repeat; width: 33px; height: 33px; }
+			.pole_top .controll.playing { background-image: url('pause.png'); background-position: 0 1px; }
+		.pole_top .nowtrack { height: 30px; padding: 14px 0; font-size: 12px; font-weight: bold; float: left; width: 237px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+			.pole_top .nowtrack .artist { color: white; overflow: hidden; text-overflow: ellipsis; }
+			.pole_top .nowtrack .name { color: #638bbd; font-size: 11px; overflow: hidden; text-overflow: ellipsis; }
+		.pole_top .volume { width: 70px; height: 58px; float: left; }
+		.pole_top .bitrate { float: left; width: 55px; height: 58px; border-left: 1px #1b3143 solid; border-right: 1px #1b3143 solid; }
+			.pole_top .bitrate .bit { width: 45px; text-align: center; color: #638bbd; font-size: 10px; font-weight: bold; margin: 3px 2px; padding: 2px 3px; overflow: hidden; cursor: pointer; }
+			.pole_top .bitrate .bit:hover { background-color: #1b3143;  }
+			.pole_top .bitrate .bit.active { background-color: #335e93; color:white; }
+		.pole_top .radio-pages { float: left; width: 115px; height: 58px; overflow: hidden; border-right: 1px #1b3143 solid; }
+			.pole_top .radio-pages .top100 { cursor: pointer; opacity: 0.7; width: 95px; height: 14px; background-image: url('top100.png'); margin-left: 10px; margin-top: 12px; }
+			.pole_top .radio-pages .histor { cursor: pointer; opacity: 0.7; width: 53px; height: 14px; background-image: url('history.png');margin-left: 10px; margin-top: 6px; }
+			.pole_top .radio-pages .top100.active { opacity: 1; }
+			.pole_top .radio-pages .histor.active { opacity: 1; }
+			.pole_top .radio-pages .top100:hover { opacity: 1; }
+			.pole_top .radio-pages .histor:hover { opacity: 1; }
+		.pole_top .link { cursor: pointer; opacity: 0.7; float: left; width: 40px; height: 13px; background-image: url('link.png'); margin-top: 31px; margin-left: 9px; }
+		.pole_top .link:hover { opacity: 1; }
+
+		
+	.pole_left { width: 80px; background-color: #2d3449; vertical-align:top; }
+		.pole_left .tab { width: 100%; height: 80px; color: #7e89ad; background-image: url('img/tab_icons.png'); cursor: pointer; }
+			.pole_left .tab.active { background-color: #181d2a; }
+			.pole_left .tab.radio { }
+			.pole_left .tab.tickets { background-position: 0px -81px; }
+			.pole_left .tab.playlists { background-position: 0px -162px; }
+			.pole_left .tab.rshop { background-position: 0px -242px; }
+			.pole_left .tab.radio.active { background-position: -86px 0px; }
+			.pole_left .tab.tickets.active { background-position: -86px -81px; }
+			.pole_left .tab.playlists.active { background-position: -86px -162px; }
+			.pole_left .tab.rshop.active { background-position: -86px -242px; }
+			
+			.pole_left .tab.playlist-detail { display:none !important; }
+			.pole_left .tab.history { display:none !important; }
+			.pole_left .tab.top100 { display:none !important; }
+			
+	.pole_content { width: auto; background-color: #cfdbe9; vertical-align: top; margin-left: 80px; padding: 4px; overflow: hidden; }
+		.pole_content .station { width: 233px; height: 67px; background-color: white; float: left; box-shadow: 1px 1px 1px #b6c1d0; margin: 2px; cursor:pointer; }
+		.pole_content .active { background-color: #6b7891; background-image: url('ug.png'); background-position: bottom right; background-repeat: no-repeat; }
+		.pole_content .active .station-name { color: white !important; }
+		.pole_content .station .station-img { width: 84px; height: 53px; background-image: url('img/sprite.jpg'); margin: 7px; float: left; }
+		.pole_content .station .station-name { text-transform: uppercase; color: #4e4e4e; font-size: 15px; font-family: Tahoma; display: block; overflow: hidden; }
+		.pole_content .station .station-prod { color: #bec0c5; font-size: 9px; }
+		.pole_content .station .station-text { height: 67px; display: table-cell; vertical-align: middle; }
+		
+	.pole_content .radio { overflow: hidden; float: left; width: 712px; }
+	.pole_content .tickets { overflow: hidden; float: left; width: 712px; display: none; }
+	.pole_content .rshop { overflow: hidden; float: left; width: 712px; display: none; }
+	.pole_content .playlists { overflow: hidden; float: left; width: 712px; display: none; }
+	.pole_content .playlist-detail { overflow: hidden; float: left; width: 712px; display: none; min-height: 496px; }
+	.pole_content .history { overflow: hidden; overflow-y: auto; float: left; width: 712px; display: none; max-height: 3700px; }
+		.pole_content .history a { color: #434343; display: block; background-image: url('//www.radiorecord.ru/i/img/rr/top100/play.png'); background-repeat: no-repeat; height: 35px; line-height: 35px; text-decoration: none; padding-left: 33px; background-position: 6px center; }
+		.pole_content .history a:nth-child(odd) { background-color: #e2edf3; }
+		.pole_content .history a:nth-child(even) { background-color: #ffffff; }
+		.pole_content .history a.playing { background-color: rgb(39, 174, 212); background-image: url('//www.radiorecord.ru/i/img/rr/top100/pause.png'); }
+	.pole_content .top100 { overflow: hidden; overflow-y: auto; float: left; width: 712px; display: none; max-height: 3700px; }
+		.pole_content .top100 a { color: #434343; display: block; background-image: url('//www.radiorecord.ru/i/img/rr/top100/play.png'); background-repeat: no-repeat; height: 35px; line-height: 35px; text-decoration: none; padding-left: 33px; background-position: 6px center; }
+		.pole_content .top100 a:nth-child(odd) { background-color: #e2edf3; }
+		.pole_content .top100 a:nth-child(even) { background-color: #ffffff; }
+		.pole_content .top100 a.playing { background-color: rgb(39, 174, 212); background-image: url('//www.radiorecord.ru/i/img/rr/top100/pause.png'); }
+		.pole_content .top100 .top100_pos { display: none; }
+		
+	
+	.pole_content .playlists li { cursor: pointer; display: block; float: left; width: 352px; height: 67px; background-color: white; box-shadow: 1px 1px 1px #b6c1d0; margin: 2px; background-image: url('arrow.png'); background-repeat: no-repeat; background-position: 325px 23px; }
+	.pole_content .playlists li span.img { display: block; float: left; margin: 6px; }
+	.pole_content .playlists li a.playlist-title { text-decoration: none; color: #2d3449; font-size: 16px; line-height: 64px; }
+	
+	.pole_content .playlist-detail a { display: block; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background-image: url('img/play.png'); background-repeat: no-repeat; background-position: 4px 3px; width: 306px; height: 40px; background-color: white; box-shadow: 1px 1px 1px #b6c1d0; margin: 2px; line-height: 40px; text-decoration: none; color: #2d3449; padding-left: 46px; }
+	.pole_content .playlist-detail a.playing { background-image: url('pause.png'); background-position: 4px 4px; }
+	
+	.playlist-zag { overflow: hidden; margin:2px; margin-bottom: 6px; }
+	.playlist-img { background-color: white; float: left; padding: 5px; }
+	.playlist-img img { float: left; }
+	.playlist-nazva { float: left; line-height: 79px; margin-left: 10px; font-size: 16px; }
+	.backlink, .backlink_hh, .backlink_top100 { float: right; margin-top: 25px; margin-right: 14px; text-decoration: none; display: inline-block; padding: 5px 10px; font-size: 15px; cursor: pointer; border-radius: 5px; border: 1px solid #ddd; background: #DCDCDC; background: -o-linear-gradient(90deg,#ddd,#fdfdfd); background: -moz-linear-gradient(90deg,#ddd,#fdfdfd); background: -webkit-linear-gradient(90deg,#ddd,#fdfdfd); background: linear-gradient(0deg,#ddd,#fdfdfd); box-shadow: 0 2px 2px rgba(0,0,0,.3); }
+	.backlink:hover, .backlink_hh:hover, .backlink_top100:hover { background: #eee; background: -o-linear-gradient(90deg,#ccc, #F1F1F1); background: -moz-linear-gradient(90deg,#ccc, #F1F1F1); background: -webkit-linear-gradient(90deg,#ccc, #F1F1F1); background: linear-gradient(0deg,#ccc, #F1F1F1); }
+	.backlink:active, .backlink_hh:active, .backlink_top100:active { background: #DCDCDC; background: -o-linear-gradient(270deg,#BCBBBB, #eee); background: -moz-linear-gradient(270deg,#BCBBBB, #eee); background: -webkit-linear-gradient(270deg,#BCBBBB, #eee); background: linear-gradient(180deg,#BCBBBB, #eee); }
+	
+	
+	
+	.grey-pod { background-color: #597da3; text-align: center; width: 224px; padding: 5px; margin-right: 2px; margin-top: 45px; position: relative; cursor: pointer; text-transform: uppercase; font-size: 11px; color: white; float: right; }
+	.grey-pod:hover { background-color: #6286ac; }
+	
+	div.volume { position: absolute; width: 82px; height: 18px; z-index: 4; }
+div.volume_slider { width: 82px; height: 18px; cursor: hand; }
+div.volume_fun { width: 96px; height: 18px; float: left; margin-left: 9px; position: relative; margin-top: 20px; }
+div.volume_fun div.volume_back_very_fake { position: absolute; width: 82px; height: 4px; z-index: 2; background-color: #3a4b59; border-radius: 2px; margin-top: 7px; }
+div.volume_fun div.volume_back_fake { position: absolute; height: 18px; z-index: 2; background-image: url('vol_dot.png'); background-position: right; background-repeat: no-repeat; margin-left: -6px; width: 95px; }
+div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; z-index: 3; }
+.ui-slider-range-min { height: 5px; background-color: #7192ac; margin-top: 7px; border-radius: 2px; }
+	
+#rr { }
+	#rr .station-img { background-position: 0px 0px; }
+#tm { }
+	#tm .station-img { background-position: -84px 0px; }
+#club { }
+	#club .station-img { background-position: -840px 0px; }
+#ps { }
+	#ps .station-img { background-position: -168px 0px; }
+#vip { }
+	#vip .station-img { background-position: -252px 0px; }
+#teo { }
+	#teo .station-img { background-position: -336px 0px; }
+#dc { }
+	#dc .station-img { background-position: -420px 0px; }
+#brks { }
+	#brks .station-img { background-position: -504px 0px; }
+#chil { }
+	#chil .station-img { background-position: -588px 0px; }
+#dub { }
+	#dub .station-img { background-position: -672px 0px; }
+#deep { }
+	#deep .station-img { background-position: -1344px 0px; }
+#sd90 { }
+	#sd90 .station-img { background-position: -756px 0px; }
+#rus { }
+	#rus .station-img { background-position: -1176px 0px; }
+#pump { }
+	#pump .station-img { background-position: -1092px 0px; }
+#mdl { }
+	#mdl .station-img { background-position: -924px 0px; }
+#gop { }
+	#gop .station-img { background-position: -1008px 0px; }
+#yo { }
+	#yo .station-img { background-position: -1260px 0px; }
+#trap { }
+	#trap .station-img { background-position: -1428px 0px; }
