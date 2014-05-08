@@ -334,7 +334,9 @@ if(isset($_GET['from'])) {
 										});
 									}
 									else {
-										$('.imgcontent').animate({opacity: 0},500, function() {	});
+										$('.imgcontent').animate({opacity: 0},500, function() {	// плавно меняем прозрачность в 0
+											$(this).css("background-image", "url("+val+")").animate({opacity: 1}, 1000);	// меняем фон на новую картинку и плавно ее показываем
+										});
 									}
 									oldartist=val;	// запоминаем вставленную картинку, чтобы она не мерцала каждый раз при проверке трека
 									//console.log(val);
