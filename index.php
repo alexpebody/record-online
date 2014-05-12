@@ -113,16 +113,27 @@ if(isset($_GET['from'])) {
 		<a class="reklama" target="_blank" href=""><span class="text"></span><span class="right_arrow"><i class="fa fa-times"></i></span></a>
 		<script>
 			$(function() {
+				get_reklama();
+				setInterval(function() {
+					get_reklama();
+				}, 20000);
+			});
+			
+			function get_reklama() {
 				$.ajax({
 					dataType: "json",
 					type: "GET",
 					url: "//www.radiorecord.ru/xml/reklama.txt?v="+new Date().getTime()
 				})
 				.done(function( msg ) {
-					$('.reklama').children('.text').html(msg.NAME);
-					$('.reklama').attr('href', msg.DETAIL_TEXT).css('display', 'block');
+					console.log(msg);
+					$('.reklama').animate({height: '0'}, 500, function() {
+						$('.reklama').children('.text').html(msg.NAME);
+						$('.reklama').attr('href', msg.DETAIL_TEXT).css('display', 'block');
+						$('.reklama').animate({height: '32px'}, 500, function() { });
+					});
 				});
-			});
+			}
 			
 			$('.right_arrow').on('click', function(e) {
 				e.preventDefault();
