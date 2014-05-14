@@ -363,8 +363,11 @@ if(isset($_GET['from'])) {
 			setInterval("update_track_inline();",5000);	// запускаем проверку на новый трек каждые 5 секунд
 
 			$('.line_buttons').children('.vk_add').bind('click', function() {	// если тык на лайкокнопку
-				var artist = encodeURIComponent($('.nowtrack').children('.artist').text());	// берем текущего артиста
-				var name = encodeURIComponent($('.nowtrack').children('.title').text());	// название трека
+				var artist = $('.nowtrack').children('.artist').text();
+				var name = $('.nowtrack').children('.title').text();
+				ga('send', 'event', 'LikeAudio', radiof, artist+' - '+name);
+				artist = encodeURIComponent(artist);
+				name = encodeURIComponent(name);
 				var ttt = "http://vkontakte.ru/share.php?url=http://vk.com/audio?q=";	
 				var ttt2 = encodeURIComponent(" - ");
 				var ttt3 = encodeURIComponent("Мне нравится ");
