@@ -9,12 +9,14 @@ if(isset($_GET['from'])) {
 ?><!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="windows-1251">
+		<meta charset="utf-8">
 		<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 		<title>Record Online Player</title>
-		<meta name="keywords" content="радио рекорд, рекорд онлайн, слушать рекорд, слушать онлайн, музыка онлайн" />
-		<meta name="description" content="Онлайн-плеер Радио Рекорд - 18 радиостанций танцевальной музыки! Более 500 лучших мировых диджеев, топ-чарты станций, история эфира!" />
+		<meta name="keywords" content="СЂР°РґРёРѕ СЂРµРєРѕСЂРґ, СЂРµРєРѕСЂРґ РѕРЅР»Р°Р№РЅ, СЃР»СѓС€Р°С‚СЊ СЂРµРєРѕСЂРґ, СЃР»СѓС€Р°С‚СЊ РѕРЅР»Р°Р№РЅ, РјСѓР·С‹РєР° РѕРЅР»Р°Р№РЅ" />
+		<meta name="description" content="РћРЅР»Р°Р№РЅ-РїР»РµРµСЂ Р Р°РґРёРѕ Р РµРєРѕСЂРґ - 18 СЂР°РґРёРѕСЃС‚Р°РЅС†РёР№ С‚Р°РЅС†РµРІР°Р»СЊРЅРѕР№ РјСѓР·С‹РєРё! Р‘РѕР»РµРµ 500 Р»СѓС‡С€РёС… РјРёСЂРѕРІС‹С… РґРёРґР¶РµРµРІ, С‚РѕРї-С‡Р°СЂС‚С‹ СЃС‚Р°РЅС†РёР№, РёСЃС‚РѕСЂРёСЏ СЌС„РёСЂР°!" />
 		<meta name="google" value="notranslate">
+		<meta name="apple-itunes-app" content="app-id=396869519">
+		<meta name="viewport" content="width=680">
 		
 		<meta property="og:title" content="Record Online Player" />
 		<meta property="og:type" content="website" />
@@ -75,20 +77,20 @@ if(isset($_GET['from'])) {
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="tm"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Trancemission</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/tm_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="vip"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Vip Mix</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/vip_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="yo"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Yo! FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/yo_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="gop"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Гоп FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/gop_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="mdl"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Медляк FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/mdl_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="sd90"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Супердискотека 90-х</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/sd90_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="gop"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Р“РѕРї FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/gop_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="mdl"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">РњРµРґР»СЏРє FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/mdl_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="sd90"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">РЎСѓРїРµСЂРґРёСЃРєРѕС‚РµРєР° 90-С…</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/sd90_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="trap"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Trap</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/trap_320</div></div>
 					
 					*/?>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="rr"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Radio Record</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8101/rr_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="sd90"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Супердискотека 90-х</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/sd90_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="sd90"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">РЎСѓРїРµСЂРґРёСЃРєРѕС‚РµРєР° 90-С…</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/sd90_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="tm"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Trancemission</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/tm_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="rus"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Russian Mix</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/rus_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="mdl"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Медляк FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/mdl_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="mdl"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">РњРµРґР»СЏРє FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/mdl_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="chil"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Chill-Out</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/chil_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="club"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Club</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/club_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="gop"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Гоп FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/gop_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="gop"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Р“РѕРї FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/gop_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="vip"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Vip Mix</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/vip_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="ps"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Pirate Station</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/ps_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="deep"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Deep</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/deep_320</div></div>
@@ -185,33 +187,33 @@ if(isset($_GET['from'])) {
 			</div>
 		</div>
 		<script>
-			if (!$.Storage.get('record_volume')) { $.Storage.set('record_volume', '60'); }	// проверяем наличие сохраненного уровня громкости, если нет - создаем
-			var sm_volume = parseInt($.Storage.get('record_volume'));	// заполняем глобальную переменную громкости
-			var sm_err_counter = 0;	// счетчик ошибок
-			var url = 'http://air.radiorecord.ru:8101/rr_320';	// стандартная ссылка на поток, необходима для корректной инициализации плеера
-			soundManager.setup({	// инициализируем плеер
-				url: 'js/soundmanagerv297a-20130512/swf/',	// адрес флеш-файлов
-				flashVersion: 9,	// версия флеш
-				preferFlash: true,	// предпочитаем использовать именно флеш
-				useHighPerformance: true,	// включаем повышенный приоритет flash для улучшения whileplaying и EQ
-				onready: function() {	// после успешной инициализации плеера
-					$('.pl_controlls').children('.play_pause').removeClass('noready');	// убираем класс отсутсвия готовности у кнопки плей
+			if (!$.Storage.get('record_volume')) { $.Storage.set('record_volume', '60'); }	// РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ СЃРѕС…СЂР°РЅРµРЅРЅРѕРіРѕ СѓСЂРѕРІРЅСЏ РіСЂРѕРјРєРѕСЃС‚Рё, РµСЃР»Рё РЅРµС‚ - СЃРѕР·РґР°РµРј
+			var sm_volume = parseInt($.Storage.get('record_volume'));	// Р·Р°РїРѕР»РЅСЏРµРј РіР»РѕР±Р°Р»СЊРЅСѓСЋ РїРµСЂРµРјРµРЅРЅСѓСЋ РіСЂРѕРјРєРѕСЃС‚Рё
+			var sm_err_counter = 0;	// СЃС‡РµС‚С‡РёРє РѕС€РёР±РѕРє
+			var url = 'http://air.radiorecord.ru:8101/rr_320';	// СЃС‚Р°РЅРґР°СЂС‚РЅР°СЏ СЃСЃС‹Р»РєР° РЅР° РїРѕС‚РѕРє, РЅРµРѕР±С…РѕРґРёРјР° РґР»СЏ РєРѕСЂСЂРµРєС‚РЅРѕР№ РёРЅРёС†РёР°Р»РёР·Р°С†РёРё РїР»РµРµСЂР°
+			soundManager.setup({	// РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј РїР»РµРµСЂ
+				url: 'js/soundmanagerv297a-20130512/swf/',	// Р°РґСЂРµСЃ С„Р»РµС€-С„Р°Р№Р»РѕРІ
+				flashVersion: 9,	// РІРµСЂСЃРёСЏ С„Р»РµС€
+				preferFlash: true,	// РїСЂРµРґРїРѕС‡РёС‚Р°РµРј РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РёРјРµРЅРЅРѕ С„Р»РµС€
+				useHighPerformance: true,	// РІРєР»СЋС‡Р°РµРј РїРѕРІС‹С€РµРЅРЅС‹Р№ РїСЂРёРѕСЂРёС‚РµС‚ flash РґР»СЏ СѓР»СѓС‡С€РµРЅРёСЏ whileplaying Рё EQ
+				onready: function() {	// РїРѕСЃР»Рµ СѓСЃРїРµС€РЅРѕР№ РёРЅРёС†РёР°Р»РёР·Р°С†РёРё РїР»РµРµСЂР°
+					$('.pl_controlls').children('.play_pause').removeClass('noready');	// СѓР±РёСЂР°РµРј РєР»Р°СЃСЃ РѕС‚СЃСѓС‚СЃРІРёСЏ РіРѕС‚РѕРІРЅРѕСЃС‚Рё Сѓ РєРЅРѕРїРєРё РїР»РµР№
 				}
 			});
-			soundManager.onerror = function() {	// если СМ2 глобально выдаст ошибку в загрузке
-				sm_err_counter++;	// считаем какая эта ошибка по счету
-				if (sm_err_counter<10) {	// если ошибка повторилась менее, чем 10 раз
-					setTimeout(function() { soundManager.reboot(); }, 10000);	// пытаемся инициализироваться заного с 10 сек тайм-аутом - хорошо работает на нестабильных коннектах
+			soundManager.onerror = function() {	// РµСЃР»Рё РЎРњ2 РіР»РѕР±Р°Р»СЊРЅРѕ РІС‹РґР°СЃС‚ РѕС€РёР±РєСѓ РІ Р·Р°РіСЂСѓР·РєРµ
+				sm_err_counter++;	// СЃС‡РёС‚Р°РµРј РєР°РєР°СЏ СЌС‚Р° РѕС€РёР±РєР° РїРѕ СЃС‡РµС‚Сѓ
+				if (sm_err_counter<10) {	// РµСЃР»Рё РѕС€РёР±РєР° РїРѕРІС‚РѕСЂРёР»Р°СЃСЊ РјРµРЅРµРµ, С‡РµРј 10 СЂР°Р·
+					setTimeout(function() { soundManager.reboot(); }, 10000);	// РїС‹С‚Р°РµРјСЃСЏ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°С‚СЊСЃСЏ Р·Р°РЅРѕРіРѕ СЃ 10 СЃРµРє С‚Р°Р№Рј-Р°СѓС‚РѕРј - С…РѕСЂРѕС€Рѕ СЂР°Р±РѕС‚Р°РµС‚ РЅР° РЅРµСЃС‚Р°Р±РёР»СЊРЅС‹С… РєРѕРЅРЅРµРєС‚Р°С…
 				}
 			};
 			
-			now_pos_id = '';	// переменная для Топ100 и Хистори - содержит ID тега текущего трека
-			histogram_id = '';	// переменная для Топ100 и Хистори - содержит адрес тега для гистограммы
+			now_pos_id = '';	// РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ РўРѕРї100 Рё РҐРёСЃС‚РѕСЂРё - СЃРѕРґРµСЂР¶РёС‚ ID С‚РµРіР° С‚РµРєСѓС‰РµРіРѕ С‚СЂРµРєР°
+			histogram_id = '';	// РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ РўРѕРї100 Рё РҐРёСЃС‚РѕСЂРё - СЃРѕРґРµСЂР¶РёС‚ Р°РґСЂРµСЃ С‚РµРіР° РґР»СЏ РіРёСЃС‚РѕРіСЂР°РјРјС‹
 			
-			function start_play(url) {	// функция запуска станции, Топ100 или Хистори. Параметр url = адрес потока или файла для проигрывания
-				stop_play();	// если мы пытаемся что-то запустить, если уже что-то играем, то надо предварительно остановить что-то прошлое
+			function start_play(url) {	// С„СѓРЅРєС†РёСЏ Р·Р°РїСѓСЃРєР° СЃС‚Р°РЅС†РёРё, РўРѕРї100 РёР»Рё РҐРёСЃС‚РѕСЂРё. РџР°СЂР°РјРµС‚СЂ url = Р°РґСЂРµСЃ РїРѕС‚РѕРєР° РёР»Рё С„Р°Р№Р»Р° РґР»СЏ РїСЂРѕРёРіСЂС‹РІР°РЅРёСЏ
+				stop_play();	// РµСЃР»Рё РјС‹ РїС‹С‚Р°РµРјСЃСЏ С‡С‚Рѕ-С‚Рѕ Р·Р°РїСѓСЃС‚РёС‚СЊ, РµСЃР»Рё СѓР¶Рµ С‡С‚Рѕ-С‚Рѕ РёРіСЂР°РµРј, С‚Рѕ РЅР°РґРѕ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕ РѕСЃС‚Р°РЅРѕРІРёС‚СЊ С‡С‚Рѕ-С‚Рѕ РїСЂРѕС€Р»РѕРµ
 				
-					// переинициация эквалайзера при каждом новом звучании
+					// РїРµСЂРµРёРЅРёС†РёР°С†РёСЏ СЌРєРІР°Р»Р°Р№Р·РµСЂР° РїСЂРё РєР°Р¶РґРѕРј РЅРѕРІРѕРј Р·РІСѓС‡Р°РЅРёРё
 				var data = [];
 				var waveform = new Waveform({
 					container: document.getElementById("nowtrack_back"),
@@ -222,51 +224,51 @@ if(isset($_GET['from'])) {
 				gradient.addColorStop(0.0, "#797979");
 				gradient.addColorStop(1.0, "#3e3e3e");
 				waveform.innerColor = gradient;
-					// эквалайзер иницииарован
+					// СЌРєРІР°Р»Р°Р№Р·РµСЂ РёРЅРёС†РёРёР°СЂРѕРІР°РЅ
 
-				soundObject = soundManager.createSound({	// создаем звук
-					id: 'record',	// ид стандартный
-					url: url,	// полученный адрес звука
-					autoLoad: false,	// не нужно заранее загружать поток, особенно бесконечный
-					autoPlay: true,		// включаем звучание сразу, как появится возможность
-					volume: sm_volume,	// уровень звука полученный ранее из стораджа
-					useFastPolling: true,	// включаем 10 мс таймер, взамен обычного 50 мс
-					useEQData: true,	// включаем EQ
-					onfinish: function() {	// когда трек закончится (радиопоток не заканчивается никогда)
-						$('.sm2_link').each(function() {	// перебираем все аудиоссылки
-							if($(this).hasClass('playing')) {	// находим активную
-								now_id = $(this).attr('id');	// записываем ее id в глобал переменную
-								if(now_id.indexOf('history')==0) {	// проверяем к чему относится аудиоссылка. если к хистори
-									new_id = parseInt(now_id.substr(7)) + 1;	// то вычленяем цифру текущего трека, следующий будет на 1 больше
-									$('a#history'+new_id).trigger('click');	// ну и запускаем следующий трек эмуляцией клика на него
+				soundObject = soundManager.createSound({	// СЃРѕР·РґР°РµРј Р·РІСѓРє
+					id: 'record',	// РёРґ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№
+					url: url,	// РїРѕР»СѓС‡РµРЅРЅС‹Р№ Р°РґСЂРµСЃ Р·РІСѓРєР°
+					autoLoad: false,	// РЅРµ РЅСѓР¶РЅРѕ Р·Р°СЂР°РЅРµРµ Р·Р°РіСЂСѓР¶Р°С‚СЊ РїРѕС‚РѕРє, РѕСЃРѕР±РµРЅРЅРѕ Р±РµСЃРєРѕРЅРµС‡РЅС‹Р№
+					autoPlay: true,		// РІРєР»СЋС‡Р°РµРј Р·РІСѓС‡Р°РЅРёРµ СЃСЂР°Р·Сѓ, РєР°Рє РїРѕСЏРІРёС‚СЃСЏ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ
+					volume: sm_volume,	// СѓСЂРѕРІРµРЅСЊ Р·РІСѓРєР° РїРѕР»СѓС‡РµРЅРЅС‹Р№ СЂР°РЅРµРµ РёР· СЃС‚РѕСЂР°РґР¶Р°
+					useFastPolling: true,	// РІРєР»СЋС‡Р°РµРј 10 РјСЃ С‚Р°Р№РјРµСЂ, РІР·Р°РјРµРЅ РѕР±С‹С‡РЅРѕРіРѕ 50 РјСЃ
+					useEQData: true,	// РІРєР»СЋС‡Р°РµРј EQ
+					onfinish: function() {	// РєРѕРіРґР° С‚СЂРµРє Р·Р°РєРѕРЅС‡РёС‚СЃСЏ (СЂР°РґРёРѕРїРѕС‚РѕРє РЅРµ Р·Р°РєР°РЅС‡РёРІР°РµС‚СЃСЏ РЅРёРєРѕРіРґР°)
+						$('.sm2_link').each(function() {	// РїРµСЂРµР±РёСЂР°РµРј РІСЃРµ Р°СѓРґРёРѕСЃСЃС‹Р»РєРё
+							if($(this).hasClass('playing')) {	// РЅР°С…РѕРґРёРј Р°РєС‚РёРІРЅСѓСЋ
+								now_id = $(this).attr('id');	// Р·Р°РїРёСЃС‹РІР°РµРј РµРµ id РІ РіР»РѕР±Р°Р» РїРµСЂРµРјРµРЅРЅСѓСЋ
+								if(now_id.indexOf('history')==0) {	// РїСЂРѕРІРµСЂСЏРµРј Рє С‡РµРјСѓ РѕС‚РЅРѕСЃРёС‚СЃСЏ Р°СѓРґРёРѕСЃСЃС‹Р»РєР°. РµСЃР»Рё Рє С…РёСЃС‚РѕСЂРё
+									new_id = parseInt(now_id.substr(7)) + 1;	// С‚Рѕ РІС‹С‡Р»РµРЅСЏРµРј С†РёС„СЂСѓ С‚РµРєСѓС‰РµРіРѕ С‚СЂРµРєР°, СЃР»РµРґСѓСЋС‰РёР№ Р±СѓРґРµС‚ РЅР° 1 Р±РѕР»СЊС€Рµ
+									$('a#history'+new_id).trigger('click');	// РЅСѓ Рё Р·Р°РїСѓСЃРєР°РµРј СЃР»РµРґСѓСЋС‰РёР№ С‚СЂРµРє СЌРјСѓР»СЏС†РёРµР№ РєР»РёРєР° РЅР° РЅРµРіРѕ
 								}
-								else {	// если же аудиоссылка не в истории, то это явно топ100
-									new_id = parseInt(now_id.substr(3)) - 1;	// следующий трек из топ100 будет на 1 меньше
-									$('a#top'+new_id).trigger('click');	// эмулируем запуск следующего трека в топ100
+								else {	// РµСЃР»Рё Р¶Рµ Р°СѓРґРёРѕСЃСЃС‹Р»РєР° РЅРµ РІ РёСЃС‚РѕСЂРёРё, С‚Рѕ СЌС‚Рѕ СЏРІРЅРѕ С‚РѕРї100
+									new_id = parseInt(now_id.substr(3)) - 1;	// СЃР»РµРґСѓСЋС‰РёР№ С‚СЂРµРє РёР· С‚РѕРї100 Р±СѓРґРµС‚ РЅР° 1 РјРµРЅСЊС€Рµ
+									$('a#top'+new_id).trigger('click');	// СЌРјСѓР»РёСЂСѓРµРј Р·Р°РїСѓСЃРє СЃР»РµРґСѓСЋС‰РµРіРѕ С‚СЂРµРєР° РІ С‚РѕРї100
 								}
 							}
 						});
 					},
-					onload: function(bSuccess) { // триггер успешной загрузки трека
-						if(!bSuccess) { restart_connection(); }	// если не загрузились, пытаемся снова
+					onload: function(bSuccess) { // С‚СЂРёРіРіРµСЂ СѓСЃРїРµС€РЅРѕР№ Р·Р°РіСЂСѓР·РєРё С‚СЂРµРєР°
+						if(!bSuccess) { restart_connection(); }	// РµСЃР»Рё РЅРµ Р·Р°РіСЂСѓР·РёР»РёСЃСЊ, РїС‹С‚Р°РµРјСЃСЏ СЃРЅРѕРІР°
 					},
-					whileplaying: function() { // во время проигрывания
-						waveform.update({data: soundObject.eqData.right}); // обновляем эквалайзер
-						if (histogram_id) { histogram_id.css('width', this.position*323/this.duration+'px');	} // увеличиваем ширину блока гистограммы (у радио нет валидного histogram_id и this.duration=Infinity
+					whileplaying: function() { // РІРѕ РІСЂРµРјСЏ РїСЂРѕРёРіСЂС‹РІР°РЅРёСЏ
+						waveform.update({data: soundObject.eqData.right}); // РѕР±РЅРѕРІР»СЏРµРј СЌРєРІР°Р»Р°Р№Р·РµСЂ
+						if (histogram_id) { histogram_id.css('width', this.position*323/this.duration+'px');	} // СѓРІРµР»РёС‡РёРІР°РµРј С€РёСЂРёРЅСѓ Р±Р»РѕРєР° РіРёСЃС‚РѕРіСЂР°РјРјС‹ (Сѓ СЂР°РґРёРѕ РЅРµС‚ РІР°Р»РёРґРЅРѕРіРѕ histogram_id Рё this.duration=Infinity
 					},
-					onid3: function() { } // возможно будущий функционал
+					onid3: function() { } // РІРѕР·РјРѕР¶РЅРѕ Р±СѓРґСѓС‰РёР№ С„СѓРЅРєС†РёРѕРЅР°Р»
 				});
-				$('.pl_controlls').children('.play_pause').addClass('playing');	// ну после старта звучания не грех кнопке плей сделать статус играбельной
-				$.Storage.set('play_from', 'playerindex');	// и расскажем всем вкладкам открытого сайта, что звучание пошло с playerindex. другие плееры наверное даже остановятся при обнаружении этого
+				$('.pl_controlls').children('.play_pause').addClass('playing');	// РЅСѓ РїРѕСЃР»Рµ СЃС‚Р°СЂС‚Р° Р·РІСѓС‡Р°РЅРёСЏ РЅРµ РіСЂРµС… РєРЅРѕРїРєРµ РїР»РµР№ СЃРґРµР»Р°С‚СЊ СЃС‚Р°С‚СѓСЃ РёРіСЂР°Р±РµР»СЊРЅРѕР№
+				$.Storage.set('play_from', 'playerindex');	// Рё СЂР°СЃСЃРєР°Р¶РµРј РІСЃРµРј РІРєР»Р°РґРєР°Рј РѕС‚РєСЂС‹С‚РѕРіРѕ СЃР°Р№С‚Р°, С‡С‚Рѕ Р·РІСѓС‡Р°РЅРёРµ РїРѕС€Р»Рѕ СЃ playerindex. РґСЂСѓРіРёРµ РїР»РµРµСЂС‹ РЅР°РІРµСЂРЅРѕРµ РґР°Р¶Рµ РѕСЃС‚Р°РЅРѕРІСЏС‚СЃСЏ РїСЂРё РѕР±РЅР°СЂСѓР¶РµРЅРёРё СЌС‚РѕРіРѕ
 			}
 			
-			function stop_play() {	// функция остановки любого звучания - радио, топ100 или хистори
-				$('.pl_controlls').children('.play_pause').removeClass('playing');	// убираем статус играбельности у кнопки плей
-				$('.sm2_link').removeClass('playing');	// убираем статус играбельной у всех аудиоссылок
-				soundManager.destroySound('record');	// и грохаем звуковой объект с id='record'
-				$('#nowtrack_back').html('');	// убираем/очищаем эквалайзер
-				$('.histogram_top').css('display', 'none');	// выключаем кликабельный слой
-				$('.histogram_back').css('width', '0px');	// выключаем фон-подложку текущей позиции
+			function stop_play() {	// С„СѓРЅРєС†РёСЏ РѕСЃС‚Р°РЅРѕРІРєРё Р»СЋР±РѕРіРѕ Р·РІСѓС‡Р°РЅРёСЏ - СЂР°РґРёРѕ, С‚РѕРї100 РёР»Рё С…РёСЃС‚РѕСЂРё
+				$('.pl_controlls').children('.play_pause').removeClass('playing');	// СѓР±РёСЂР°РµРј СЃС‚Р°С‚СѓСЃ РёРіСЂР°Р±РµР»СЊРЅРѕСЃС‚Рё Сѓ РєРЅРѕРїРєРё РїР»РµР№
+				$('.sm2_link').removeClass('playing');	// СѓР±РёСЂР°РµРј СЃС‚Р°С‚СѓСЃ РёРіСЂР°Р±РµР»СЊРЅРѕР№ Сѓ РІСЃРµС… Р°СѓРґРёРѕСЃСЃС‹Р»РѕРє
+				soundManager.destroySound('record');	// Рё РіСЂРѕС…Р°РµРј Р·РІСѓРєРѕРІРѕР№ РѕР±СЉРµРєС‚ СЃ id='record'
+				$('#nowtrack_back').html('');	// СѓР±РёСЂР°РµРј/РѕС‡РёС‰Р°РµРј СЌРєРІР°Р»Р°Р№Р·РµСЂ
+				$('.histogram_top').css('display', 'none');	// РІС‹РєР»СЋС‡Р°РµРј РєР»РёРєР°Р±РµР»СЊРЅС‹Р№ СЃР»РѕР№
+				$('.histogram_back').css('width', '0px');	// РІС‹РєР»СЋС‡Р°РµРј С„РѕРЅ-РїРѕРґР»РѕР¶РєСѓ С‚РµРєСѓС‰РµР№ РїРѕР·РёС†РёРё
 				oldartist = '1';
 			}
 			
@@ -275,81 +277,81 @@ if(isset($_GET['from'])) {
 				setTimeout(start_play(url), 1000);
 			}
 		
-			$('.pl_controlls').children('.play_pause').bind('click', function() {	// вешаем событие по нажатию на кнопку плея/паузы
-				if($(this).hasClass('playing')) { stop_play(); }	// если сейчас кнопка играбельная, то останавливаем звучания
-				else { start_play(url); }	// иначе - запускаем звучание с последним url
+			$('.pl_controlls').children('.play_pause').bind('click', function() {	// РІРµС€Р°РµРј СЃРѕР±С‹С‚РёРµ РїРѕ РЅР°Р¶Р°С‚РёСЋ РЅР° РєРЅРѕРїРєСѓ РїР»РµСЏ/РїР°СѓР·С‹
+				if($(this).hasClass('playing')) { stop_play(); }	// РµСЃР»Рё СЃРµР№С‡Р°СЃ РєРЅРѕРїРєР° РёРіСЂР°Р±РµР»СЊРЅР°СЏ, С‚Рѕ РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј Р·РІСѓС‡Р°РЅРёСЏ
+				else { start_play(url); }	// РёРЅР°С‡Рµ - Р·Р°РїСѓСЃРєР°РµРј Р·РІСѓС‡Р°РЅРёРµ СЃ РїРѕСЃР»РµРґРЅРёРј url
 			});
 
-			$(function() {	// когда старница будет полностью загружена
-				$('#vol_razd').css('height', 57-sm_volume*0.57);	// нужно выставить уровень громкости на сохраненное ранее значение
-				$('#vol_clickable').slider({	// запускаем возможность таскать слайдер мышкой
-					orientation: "vertical",	// по вертикали, ага
+			$(function() {	// РєРѕРіРґР° СЃС‚Р°СЂРЅРёС†Р° Р±СѓРґРµС‚ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·Р°РіСЂСѓР¶РµРЅР°
+				$('#vol_razd').css('height', 57-sm_volume*0.57);	// РЅСѓР¶РЅРѕ РІС‹СЃС‚Р°РІРёС‚СЊ СѓСЂРѕРІРµРЅСЊ РіСЂРѕРјРєРѕСЃС‚Рё РЅР° СЃРѕС…СЂР°РЅРµРЅРЅРѕРµ СЂР°РЅРµРµ Р·РЅР°С‡РµРЅРёРµ
+				$('#vol_clickable').slider({	// Р·Р°РїСѓСЃРєР°РµРј РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ С‚Р°СЃРєР°С‚СЊ СЃР»Р°Р№РґРµСЂ РјС‹С€РєРѕР№
+					orientation: "vertical",	// РїРѕ РІРµСЂС‚РёРєР°Р»Рё, Р°РіР°
 					range: "min",
-					min: 0,	// допустимые значения от 0
-					max: 100,	// до 100 (% в СМ2)
-					value: sm_volume,	// текущее значение давно известно, выставляем в мозг слайдеру
-					slide: function( event, ui ) {	// если пользователь слайдит громкость
-						$('#vol_razd').css('height', 57-ui.value*0.57);	// то тащим наш слайдящийся элемент по формуле
-						sm_volume=ui.value;	// применяем нашей переменной с глобальной громкостью новое значение
-						soundManager.setVolume('record',ui.value);	// и применяем для аудиообъекта новое значение громкости
-						$.Storage.set('record_volume', ui.value+'');	// записываем новую громоксть в сторадж
+					min: 0,	// РґРѕРїСѓСЃС‚РёРјС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ 0
+					max: 100,	// РґРѕ 100 (% РІ РЎРњ2)
+					value: sm_volume,	// С‚РµРєСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ РґР°РІРЅРѕ РёР·РІРµСЃС‚РЅРѕ, РІС‹СЃС‚Р°РІР»СЏРµРј РІ РјРѕР·Рі СЃР»Р°Р№РґРµСЂСѓ
+					slide: function( event, ui ) {	// РµСЃР»Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ СЃР»Р°Р№РґРёС‚ РіСЂРѕРјРєРѕСЃС‚СЊ
+						$('#vol_razd').css('height', 57-ui.value*0.57);	// С‚Рѕ С‚Р°С‰РёРј РЅР°С€ СЃР»Р°Р№РґСЏС‰РёР№СЃСЏ СЌР»РµРјРµРЅС‚ РїРѕ С„РѕСЂРјСѓР»Рµ
+						sm_volume=ui.value;	// РїСЂРёРјРµРЅСЏРµРј РЅР°С€РµР№ РїРµСЂРµРјРµРЅРЅРѕР№ СЃ РіР»РѕР±Р°Р»СЊРЅРѕР№ РіСЂРѕРјРєРѕСЃС‚СЊСЋ РЅРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ
+						soundManager.setVolume('record',ui.value);	// Рё РїСЂРёРјРµРЅСЏРµРј РґР»СЏ Р°СѓРґРёРѕРѕР±СЉРµРєС‚Р° РЅРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ РіСЂРѕРјРєРѕСЃС‚Рё
+						$.Storage.set('record_volume', ui.value+'');	// Р·Р°РїРёСЃС‹РІР°РµРј РЅРѕРІСѓСЋ РіСЂРѕРјРѕРєСЃС‚СЊ РІ СЃС‚РѕСЂР°РґР¶
 					}
 				});
 				
-				function music_check() {	// функция проверки источника звучания
-					if (($.Storage.get('play_from') != 'playerindex') && ($('.pl_controlls').children('.play_pause').hasClass('playing'))) {	// если в сторадже не плеер и статус плеера играбельно
-						stop_play();	// то останавливаем звук
+				function music_check() {	// С„СѓРЅРєС†РёСЏ РїСЂРѕРІРµСЂРєРё РёСЃС‚РѕС‡РЅРёРєР° Р·РІСѓС‡Р°РЅРёСЏ
+					if (($.Storage.get('play_from') != 'playerindex') && ($('.pl_controlls').children('.play_pause').hasClass('playing'))) {	// РµСЃР»Рё РІ СЃС‚РѕСЂР°РґР¶Рµ РЅРµ РїР»РµРµСЂ Рё СЃС‚Р°С‚СѓСЃ РїР»РµРµСЂР° РёРіСЂР°Р±РµР»СЊРЅРѕ
+						stop_play();	// С‚Рѕ РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј Р·РІСѓРє
 					}
 				}
-				var mchk = setInterval(function() { music_check(); }, 500);	// проверяем внезапное наличие звукового потока с других мест сайта каждые полсекунды
+				var mchk = setInterval(function() { music_check(); }, 500);	// РїСЂРѕРІРµСЂСЏРµРј РІРЅРµР·Р°РїРЅРѕРµ РЅР°Р»РёС‡РёРµ Р·РІСѓРєРѕРІРѕРіРѕ РїРѕС‚РѕРєР° СЃ РґСЂСѓРіРёС… РјРµСЃС‚ СЃР°Р№С‚Р° РєР°Р¶РґС‹Рµ РїРѕР»СЃРµРєСѓРЅРґС‹
 			});
 			
-			$('.bitrate').children('div').bind('click', function() {	// если пользователь тыкает на один из битрейтов
-				bitrate = $(this).attr('id');	// берем id нового битрейта
+			$('.bitrate').children('div').bind('click', function() {	// РµСЃР»Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ С‚С‹РєР°РµС‚ РЅР° РѕРґРёРЅ РёР· Р±РёС‚СЂРµР№С‚РѕРІ
+				bitrate = $(this).attr('id');	// Р±РµСЂРµРј id РЅРѕРІРѕРіРѕ Р±РёС‚СЂРµР№С‚Р°
 /*@@@*/				//if(radio!='rr' && bitrate == 'l128') { bitrate = 'l64'; $('.bitrate').children('div').removeClass('active'); $('.l64').addClass('active'); }
-				$('.bitrate').children('div').removeClass('active');	// убираем статус активности всем битрейтам
-				$('#'+bitrate).addClass('active');	// текущему задаем активный статус
-				stop_play();	// нежно останавливаем звучание
+				$('.bitrate').children('div').removeClass('active');	// СѓР±РёСЂР°РµРј СЃС‚Р°С‚СѓСЃ Р°РєС‚РёРІРЅРѕСЃС‚Рё РІСЃРµРј Р±РёС‚СЂРµР№С‚Р°Рј
+				$('#'+bitrate).addClass('active');	// С‚РµРєСѓС‰РµРјСѓ Р·Р°РґР°РµРј Р°РєС‚РёРІРЅС‹Р№ СЃС‚Р°С‚СѓСЃ
+				stop_play();	// РЅРµР¶РЅРѕ РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј Р·РІСѓС‡Р°РЅРёРµ
 				
-				url = st[radio][bitrate];	// задаем новую аудиоссылку с новым битрейтом
-				start_play(url);	// запускаем звучание
+				url = st[radio][bitrate];	// Р·Р°РґР°РµРј РЅРѕРІСѓСЋ Р°СѓРґРёРѕСЃСЃС‹Р»РєСѓ СЃ РЅРѕРІС‹Рј Р±РёС‚СЂРµР№С‚РѕРј
+				start_play(url);	// Р·Р°РїСѓСЃРєР°РµРј Р·РІСѓС‡Р°РЅРёРµ
 			});
 			
-			$('.histogram_top').live('click', function(e) {	// клик на область смены позиции трека
-				if (e.offsetX==undefined) { xpos = e.pageX-$(this).offset().left; }	// костыль для Firefox
-				else { xpos = e.offsetX; }	// нормально для Chrome
+			$('.histogram_top').live('click', function(e) {	// РєР»РёРє РЅР° РѕР±Р»Р°СЃС‚СЊ СЃРјРµРЅС‹ РїРѕР·РёС†РёРё С‚СЂРµРєР°
+				if (e.offsetX==undefined) { xpos = e.pageX-$(this).offset().left; }	// РєРѕСЃС‚С‹Р»СЊ РґР»СЏ Firefox
+				else { xpos = e.offsetX; }	// РЅРѕСЂРјР°Р»СЊРЅРѕ РґР»СЏ Chrome
 				soundManager.setPosition('record',soundObject.duration*xpos/323);
 			});
-			$('.histogram_top').live('mousemove', function(e) {	// во время движения по кликабельной области рисуем вертикальную палку места тыка
-				if (e.offsetX==undefined) { xpos = e.pageX-$(this).offset().left; }	// костыль для Firefox
-				else { xpos = e.offsetX; }	// нормально для Chrome
-				$(this).css('backgroundPosition', xpos+'px 0px');	// задаем координаты вертикальной палки от позиции курсора
+			$('.histogram_top').live('mousemove', function(e) {	// РІРѕ РІСЂРµРјСЏ РґРІРёР¶РµРЅРёСЏ РїРѕ РєР»РёРєР°Р±РµР»СЊРЅРѕР№ РѕР±Р»Р°СЃС‚Рё СЂРёСЃСѓРµРј РІРµСЂС‚РёРєР°Р»СЊРЅСѓСЋ РїР°Р»РєСѓ РјРµСЃС‚Р° С‚С‹РєР°
+				if (e.offsetX==undefined) { xpos = e.pageX-$(this).offset().left; }	// РєРѕСЃС‚С‹Р»СЊ РґР»СЏ Firefox
+				else { xpos = e.offsetX; }	// РЅРѕСЂРјР°Р»СЊРЅРѕ РґР»СЏ Chrome
+				$(this).css('backgroundPosition', xpos+'px 0px');	// Р·Р°РґР°РµРј РєРѕРѕСЂРґРёРЅР°С‚С‹ РІРµСЂС‚РёРєР°Р»СЊРЅРѕР№ РїР°Р»РєРё РѕС‚ РїРѕР·РёС†РёРё РєСѓСЂСЃРѕСЂР°
 			});
-			$('.histogram_top').live('mouseleave', function(e) {	// если мышь ушла за пределы кликабельной области
-				$(this).css('backgroundPosition', '-1px 0px');	// выключаем палку
+			$('.histogram_top').live('mouseleave', function(e) {	// РµСЃР»Рё РјС‹С€СЊ СѓС€Р»Р° Р·Р° РїСЂРµРґРµР»С‹ РєР»РёРєР°Р±РµР»СЊРЅРѕР№ РѕР±Р»Р°СЃС‚Рё
+				$(this).css('backgroundPosition', '-1px 0px');	// РІС‹РєР»СЋС‡Р°РµРј РїР°Р»РєСѓ
 			});
 			
-			var radiof = 'record';	// глобальная переменная с префиксом станции
+			var radiof = 'record';	// РіР»РѕР±Р°Р»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ СЃ РїСЂРµС„РёРєСЃРѕРј СЃС‚Р°РЅС†РёРё
 			var oldartist = '1';
-			function update_track_inline() {	// функция обновления текущего трека
-				$.getJSON('//www.radiorecord.ru/xml/'+radiof+'_online_v3.txt', function(data) {	// ссылка на файл с текущим треком
-					$.each(data, function(key, val) {	// берем каждое поле из JSON-ответа
-						switch (key) {	// смотрим ключ
-							case 'ARTIST': { $('.nowtrack').children('.artist').html(val); break; }	// артисту заполняем поле артиста
-							case 'NAME': { $('.nowtrack').children('.title').html(val); break; }	// треку заполняем поле названия трека
-							case 'image': {	// а если картинка
-								if(oldartist!=val) {	// если новая картинка отличается от прошлой
+			function update_track_inline() {	// С„СѓРЅРєС†РёСЏ РѕР±РЅРѕРІР»РµРЅРёСЏ С‚РµРєСѓС‰РµРіРѕ С‚СЂРµРєР°
+				$.getJSON('//www.radiorecord.ru/xml/'+radiof+'_online_v6.txt', function(data) {	// СЃСЃС‹Р»РєР° РЅР° С„Р°Р№Р» СЃ С‚РµРєСѓС‰РёРј С‚СЂРµРєРѕРј
+					$.each(data, function(key, val) {	// Р±РµСЂРµРј РєР°Р¶РґРѕРµ РїРѕР»Рµ РёР· JSON-РѕС‚РІРµС‚Р°
+						switch (key) {	// СЃРјРѕС‚СЂРёРј РєР»СЋС‡
+							case 'ARTIST': { $('.nowtrack').children('.artist').html(val); break; }	// Р°СЂС‚РёСЃС‚Сѓ Р·Р°РїРѕР»РЅСЏРµРј РїРѕР»Рµ Р°СЂС‚РёСЃС‚Р°
+							case 'NAME': { $('.nowtrack').children('.title').html(val); break; }	// С‚СЂРµРєСѓ Р·Р°РїРѕР»РЅСЏРµРј РїРѕР»Рµ РЅР°Р·РІР°РЅРёСЏ С‚СЂРµРєР°
+							case 'image': {	// Р° РµСЃР»Рё РєР°СЂС‚РёРЅРєР°
+								if(oldartist!=val) {	// РµСЃР»Рё РЅРѕРІР°СЏ РєР°СЂС‚РёРЅРєР° РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ РїСЂРѕС€Р»РѕР№
 									if(val=='false' || val=='null' || val.length<10) {
-										$('.imgcontent').animate({opacity: 0},500, function() {	// плавно меняем прозрачность в 0
-											$(this).css("background-image", "none").animate({opacity: 1}, 1000);	// меняем фон на новую картинку и плавно ее показываем
+										$('.imgcontent').animate({opacity: 0},500, function() {	// РїР»Р°РІРЅРѕ РјРµРЅСЏРµРј РїСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ РІ 0
+											$(this).css("background-image", "none").animate({opacity: 1}, 1000);	// РјРµРЅСЏРµРј С„РѕРЅ РЅР° РЅРѕРІСѓСЋ РєР°СЂС‚РёРЅРєСѓ Рё РїР»Р°РІРЅРѕ РµРµ РїРѕРєР°Р·С‹РІР°РµРј
 										});
 									}
 									else {
-										$('.imgcontent').animate({opacity: 0},500, function() {	// плавно меняем прозрачность в 0
-											$(this).css("background-image", "url("+val+")").animate({opacity: 1}, 1000);	// меняем фон на новую картинку и плавно ее показываем
+										$('.imgcontent').animate({opacity: 0},500, function() {	// РїР»Р°РІРЅРѕ РјРµРЅСЏРµРј РїСЂРѕР·СЂР°С‡РЅРѕСЃС‚СЊ РІ 0
+											$(this).css("background-image", "url("+val+")").animate({opacity: 1}, 1000);	// РјРµРЅСЏРµРј С„РѕРЅ РЅР° РЅРѕРІСѓСЋ РєР°СЂС‚РёРЅРєСѓ Рё РїР»Р°РІРЅРѕ РµРµ РїРѕРєР°Р·С‹РІР°РµРј
 										});
 									}
-									oldartist=val;	// запоминаем вставленную картинку, чтобы она не мерцала каждый раз при проверке трека
+									oldartist=val;	// Р·Р°РїРѕРјРёРЅР°РµРј РІСЃС‚Р°РІР»РµРЅРЅСѓСЋ РєР°СЂС‚РёРЅРєСѓ, С‡С‚РѕР±С‹ РѕРЅР° РЅРµ РјРµСЂС†Р°Р»Р° РєР°Р¶РґС‹Р№ СЂР°Р· РїСЂРё РїСЂРѕРІРµСЂРєРµ С‚СЂРµРєР°
 									//console.log(val);
 								}
 								break;
@@ -359,26 +361,28 @@ if(isset($_GET['from'])) {
 				});
 			}
 
-			update_track_inline();	// при первой возможности обновляем текущий трек
-			setInterval("update_track_inline();",5000);	// запускаем проверку на новый трек каждые 5 секунд
+			update_track_inline();	// РїСЂРё РїРµСЂРІРѕР№ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РѕР±РЅРѕРІР»СЏРµРј С‚РµРєСѓС‰РёР№ С‚СЂРµРє
+			setInterval("update_track_inline();",5000);	// Р·Р°РїСѓСЃРєР°РµРј РїСЂРѕРІРµСЂРєСѓ РЅР° РЅРѕРІС‹Р№ С‚СЂРµРє РєР°Р¶РґС‹Рµ 5 СЃРµРєСѓРЅРґ
 
-			$('.line_buttons').children('.vk_add').bind('click', function() {	// если тык на лайкокнопку
+			$('.line_buttons').children('.vk_add').bind('click', function() {	// РµСЃР»Рё С‚С‹Рє РЅР° Р»Р°Р№РєРѕРєРЅРѕРїРєСѓ
 				var artist = $('.nowtrack').children('.artist').text();
 				var name = $('.nowtrack').children('.title').text();
-				ga('send', 'event', 'LikeAudio', radiof, artist+' - '+name);
+				if(artist!='Record Dance Radio') { 
+					ga('send', 'event', 'LikeAudio', 'record', artist+' - '+name);
+				}
 				artist = encodeURIComponent(artist);
 				name = encodeURIComponent(name);
 				var ttt = "http://vkontakte.ru/share.php?url=http://vk.com/audio?q=";	
 				var ttt2 = encodeURIComponent(" - ");
-				var ttt3 = encodeURIComponent("Мне нравится ");
-				var ttt4 = encodeURIComponent(" на РАДИО РЕКОРД!");
-				var ttt5 = encodeURIComponent("Кликайте и добавляйте!");
+				var ttt3 = encodeURIComponent("РњРЅРµ РЅСЂР°РІРёС‚СЃСЏ ");
+				var ttt4 = encodeURIComponent(" РЅР° Р РђР”РРћ Р Р•РљРћР Р”!");
+				var ttt5 = encodeURIComponent("РљР»РёРєР°Р№С‚Рµ Рё РґРѕР±Р°РІР»СЏР№С‚Рµ!");
 				var link_text = ttt+artist+ttt2+name+"&title="+ttt3+artist+ttt2+name+ttt4+"&description="+ttt5+"&image=http://radiorecord.ru/vk_pic.jpg&noparse=1";
-				window.open(link_text,'popup', 'width=640,height=520');	// показываем вконтактовское окошко добавления записи на страницу
+				window.open(link_text,'popup', 'width=640,height=520');	// РїРѕРєР°Р·С‹РІР°РµРј РІРєРѕРЅС‚Р°РєС‚РѕРІСЃРєРѕРµ РѕРєРѕС€РєРѕ РґРѕР±Р°РІР»РµРЅРёСЏ Р·Р°РїРёСЃРё РЅР° СЃС‚СЂР°РЅРёС†Сѓ
 			});
 			
 			
-			var st = Array();	// массив содержит кучу данных о каждой станции
+			var st = Array();	// РјР°СЃСЃРёРІ СЃРѕРґРµСЂР¶РёС‚ РєСѓС‡Сѓ РґР°РЅРЅС‹С… Рѕ РєР°Р¶РґРѕР№ СЃС‚Р°РЅС†РёРё
 			st['rr']	= Array();	st['rr']['name']='record';	st['rr']['l32']	= 'http://air.radiorecord.ru:8100/rr_aac?type=.flv';			st['rr']['l64']		= 'http://air.radiorecord.ru:8101/rr_128';	st['rr']['l128']	= 'http://78.140.251.2:8101/rr_320';
 			st['tm']	= Array();	st['tm']['name']='trancemission';	st['tm']['l32']	= 'http://air.radiorecord.ru:8102/tm_aac?type=.flv';	st['tm']['l64']		= 'http://air.radiorecord.ru:8102/tm_128';	st['tm']['l128']	= 'http://air.radiorecord.ru:8102/tm_320';
 			st['ps']	= Array();	st['ps']['name']='pirate';	st['ps']['l32']	= 'http://air.radiorecord.ru:8102/ps_aac?type=.flv';			st['ps']['l64']		= 'http://air.radiorecord.ru:8102/ps_128';	st['ps']['l128']	= 'http://air.radiorecord.ru:8102/ps_320';
@@ -399,35 +403,35 @@ if(isset($_GET['from'])) {
 			st['trap']	= Array();	st['trap']['name']='trap';	st['trap']['l32']	= 'http://air.radiorecord.ru:8102/trap_aac?type=.flv';		st['trap']['l64']	= 'http://air.radiorecord.ru:8102/trap_128';	st['trap']['l128']	= 'http://air.radiorecord.ru:8102/trap_320';
 			st['rock']	= Array();	st['rock']['name']='rock';	st['rock']['l32']	= 'http://air.radiorecord.ru:8102/rock_aac?type=.flv';		st['rock']['l64']	= 'http://air.radiorecord.ru:8102/rock_128';	st['rock']['l128']	= 'http://air.radiorecord.ru:8102/rock_320';
 			
-			var radio = 'rr';	// по дефолту префикс Радио Рекорд
-			var radiof = 'record';	// с полным id Радио Рекорд
-			var bitrate = 'l128';	// битрейт по-умолчанию
-			$('.station').bind('click', function() {	// по клику на таб станции
+			var radio = 'rr';	// РїРѕ РґРµС„РѕР»С‚Сѓ РїСЂРµС„РёРєСЃ Р Р°РґРёРѕ Р РµРєРѕСЂРґ
+			var radiof = 'record';	// СЃ РїРѕР»РЅС‹Рј id Р Р°РґРёРѕ Р РµРєРѕСЂРґ
+			var bitrate = 'l128';	// Р±РёС‚СЂРµР№С‚ РїРѕ-СѓРјРѕР»С‡Р°РЅРёСЋ
+			$('.station').bind('click', function() {	// РїРѕ РєР»РёРєСѓ РЅР° С‚Р°Р± СЃС‚Р°РЅС†РёРё
 				if($(this).hasClass('active')) {
-					$('.inner_pl').animate({left: "0"},550,	function() { // мягко открываем поле с детальной страницей радио и по концу анимации
-						update_track_inline();	// запускаем обновление текущего трека вне таймаута
+					$('.inner_pl').animate({left: "0"},550,	function() { // РјСЏРіРєРѕ РѕС‚РєСЂС‹РІР°РµРј РїРѕР»Рµ СЃ РґРµС‚Р°Р»СЊРЅРѕР№ СЃС‚СЂР°РЅРёС†РµР№ СЂР°РґРёРѕ Рё РїРѕ РєРѕРЅС†Сѓ Р°РЅРёРјР°С†РёРё
+						update_track_inline();	// Р·Р°РїСѓСЃРєР°РµРј РѕР±РЅРѕРІР»РµРЅРёРµ С‚РµРєСѓС‰РµРіРѕ С‚СЂРµРєР° РІРЅРµ С‚Р°Р№РјР°СѓС‚Р°
 					});
 				}
 				else {
-					// заполняем глобальные переменные
-					$('.station').removeClass('active');	// убираем активность всем другим табам
-					$(this).addClass('active');	// делаем текущий таб активным
-					radio = $(this).attr('id');	// заполняем глобальную переменную текущего радио
-					radiof = st[radio]['name'];	// заполняем глобальный id радио для обновлятора треков
-					url = st[radio][bitrate];	// заполняем ссылку на поток текущего радио
-					//if(radio!='rr') { $('.l128').css('display', 'none'); }	// скрываем 320 поток если станция не рекорд
+					// Р·Р°РїРѕР»РЅСЏРµРј РіР»РѕР±Р°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ
+					$('.station').removeClass('active');	// СѓР±РёСЂР°РµРј Р°РєС‚РёРІРЅРѕСЃС‚СЊ РІСЃРµРј РґСЂСѓРіРёРј С‚Р°Р±Р°Рј
+					$(this).addClass('active');	// РґРµР»Р°РµРј С‚РµРєСѓС‰РёР№ С‚Р°Р± Р°РєС‚РёРІРЅС‹Рј
+					radio = $(this).attr('id');	// Р·Р°РїРѕР»РЅСЏРµРј РіР»РѕР±Р°Р»СЊРЅСѓСЋ РїРµСЂРµРјРµРЅРЅСѓСЋ С‚РµРєСѓС‰РµРіРѕ СЂР°РґРёРѕ
+					radiof = st[radio]['name'];	// Р·Р°РїРѕР»РЅСЏРµРј РіР»РѕР±Р°Р»СЊРЅС‹Р№ id СЂР°РґРёРѕ РґР»СЏ РѕР±РЅРѕРІР»СЏС‚РѕСЂР° С‚СЂРµРєРѕРІ
+					url = st[radio][bitrate];	// Р·Р°РїРѕР»РЅСЏРµРј СЃСЃС‹Р»РєСѓ РЅР° РїРѕС‚РѕРє С‚РµРєСѓС‰РµРіРѕ СЂР°РґРёРѕ
+					//if(radio!='rr') { $('.l128').css('display', 'none'); }	// СЃРєСЂС‹РІР°РµРј 320 РїРѕС‚РѕРє РµСЃР»Рё СЃС‚Р°РЅС†РёСЏ РЅРµ СЂРµРєРѕСЂРґ
 					//else { $('.l128').css('display', 'block'); }
 					//if(radio!='rr' && bitrate == 'l128') { bitrate = 'l64'; $('.bitrate').children('div').removeClass('active'); $('.l64').addClass('active'); $('#l32').css('marginTop', '12px'); }
 					//if(radio=='rr') { $('#l32').css('marginTop', '3px'); }
 					
-					// открываем блок плеера
-					$('.imgcontent').css("background-image", "none");	// старая картинка явно не актуальна
-					$('.bigimage').css('background-image', 'url(img/logos/'+radio+'.jpg)');	// задаем (расово)правильный фон текущей станции
-					$('.inner_pl').animate({left: "0"},550,	function() { // мягко открываем поле с детальной страницей радио и по концу анимации
-						update_track_inline();	// запускаем обновление текущего трека вне таймаута
+					// РѕС‚РєСЂС‹РІР°РµРј Р±Р»РѕРє РїР»РµРµСЂР°
+					$('.imgcontent').css("background-image", "none");	// СЃС‚Р°СЂР°СЏ РєР°СЂС‚РёРЅРєР° СЏРІРЅРѕ РЅРµ Р°РєС‚СѓР°Р»СЊРЅР°
+					$('.bigimage').css('background-image', 'url(img/logos/'+radio+'.jpg)');	// Р·Р°РґР°РµРј (СЂР°СЃРѕРІРѕ)РїСЂР°РІРёР»СЊРЅС‹Р№ С„РѕРЅ С‚РµРєСѓС‰РµР№ СЃС‚Р°РЅС†РёРё
+					$('.inner_pl').animate({left: "0"},550,	function() { // РјСЏРіРєРѕ РѕС‚РєСЂС‹РІР°РµРј РїРѕР»Рµ СЃ РґРµС‚Р°Р»СЊРЅРѕР№ СЃС‚СЂР°РЅРёС†РµР№ СЂР°РґРёРѕ Рё РїРѕ РєРѕРЅС†Сѓ Р°РЅРёРјР°С†РёРё
+						update_track_inline();	// Р·Р°РїСѓСЃРєР°РµРј РѕР±РЅРѕРІР»РµРЅРёРµ С‚РµРєСѓС‰РµРіРѕ С‚СЂРµРєР° РІРЅРµ С‚Р°Р№РјР°СѓС‚Р°
 					});
-					start_play(url);	// не грех даже радио запустить
-					$('#tabtop100').trigger('click');	// показываем топ100 по-умолчанию эмуляций клика на него
+					start_play(url);	// РЅРµ РіСЂРµС… РґР°Р¶Рµ СЂР°РґРёРѕ Р·Р°РїСѓСЃС‚РёС‚СЊ
+					$('#tabtop100').trigger('click');	// РїРѕРєР°Р·С‹РІР°РµРј С‚РѕРї100 РїРѕ-СѓРјРѕР»С‡Р°РЅРёСЋ СЌРјСѓР»СЏС†РёР№ РєР»РёРєР° РЅР° РЅРµРіРѕ
 					
 					$('.block-header').html('<i class="fa fa-arrow-left"></i>'+$(this).find('.station-name').html()+'<?if($from):?><span class="icon-player-block-undock"></span><?endif;?>');
 					Cufon.refresh('.dintext-font');
@@ -435,34 +439,34 @@ if(isset($_GET['from'])) {
 			});
 		
 		
-				// плагин скроллинга
-			var settings = { autoReinitialise: true, maintainPosition: false }; // массив настроек скроллера
-			var pane = $('.tab_content');	// переменная с id слоя, который надо скроллить
-			pane.jScrollPane(settings);	// запускаем плагин скроллинга к id с настройками
-			var api = pane.data('jsp');	// делаем привязку API
-				// конец плагина скроллинга
+				// РїР»Р°РіРёРЅ СЃРєСЂРѕР»Р»РёРЅРіР°
+			var settings = { autoReinitialise: true, maintainPosition: false }; // РјР°СЃСЃРёРІ РЅР°СЃС‚СЂРѕРµРє СЃРєСЂРѕР»Р»РµСЂР°
+			var pane = $('.tab_content');	// РїРµСЂРµРјРµРЅРЅР°СЏ СЃ id СЃР»РѕСЏ, РєРѕС‚РѕСЂС‹Р№ РЅР°РґРѕ СЃРєСЂРѕР»Р»РёС‚СЊ
+			pane.jScrollPane(settings);	// Р·Р°РїСѓСЃРєР°РµРј РїР»Р°РіРёРЅ СЃРєСЂРѕР»Р»РёРЅРіР° Рє id СЃ РЅР°СЃС‚СЂРѕР№РєР°РјРё
+			var api = pane.data('jsp');	// РґРµР»Р°РµРј РїСЂРёРІСЏР·РєСѓ API
+				// РєРѕРЅРµС† РїР»Р°РіРёРЅР° СЃРєСЂРѕР»Р»РёРЅРіР°
 			
-			history_day = 'today'; // для истории показываем по-умолчанию текущий день
+			history_day = 'today'; // РґР»СЏ РёСЃС‚РѕСЂРёРё РїРѕРєР°Р·С‹РІР°РµРј РїРѕ-СѓРјРѕР»С‡Р°РЅРёСЋ С‚РµРєСѓС‰РёР№ РґРµРЅСЊ
 			
-			$('.aday').live('click', function() {	// если кликаем на какой-то день
-				history_day = $(this).attr('value');	// то выбранный день берется из value кликнутого дня
-				$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day='+history_day}).done(function(histordata) {	// делаем нежный ajax-Запрос
-					var pane = $('.tab_content');	// чтоб не забыть)
-					var api = pane.data('jsp');	// привязываем снова api
-					api.getContentPane().html(histordata);	// и через магию плагина обновляем содержимое блока на ответ ajax'а
-					api.reinitialise();	// ренеициализируем скроллер
+			$('.aday').live('click', function() {	// РµСЃР»Рё РєР»РёРєР°РµРј РЅР° РєР°РєРѕР№-С‚Рѕ РґРµРЅСЊ
+				history_day = $(this).attr('value');	// С‚Рѕ РІС‹Р±СЂР°РЅРЅС‹Р№ РґРµРЅСЊ Р±РµСЂРµС‚СЃСЏ РёР· value РєР»РёРєРЅСѓС‚РѕРіРѕ РґРЅСЏ
+				$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day='+history_day}).done(function(histordata) {	// РґРµР»Р°РµРј РЅРµР¶РЅС‹Р№ ajax-Р—Р°РїСЂРѕСЃ
+					var pane = $('.tab_content');	// С‡С‚РѕР± РЅРµ Р·Р°Р±С‹С‚СЊ)
+					var api = pane.data('jsp');	// РїСЂРёРІСЏР·С‹РІР°РµРј СЃРЅРѕРІР° api
+					api.getContentPane().html(histordata);	// Рё С‡РµСЂРµР· РјР°РіРёСЋ РїР»Р°РіРёРЅР° РѕР±РЅРѕРІР»СЏРµРј СЃРѕРґРµСЂР¶РёРјРѕРµ Р±Р»РѕРєР° РЅР° РѕС‚РІРµС‚ ajax'Р°
+					api.reinitialise();	// СЂРµРЅРµРёС†РёР°Р»РёР·РёСЂСѓРµРј СЃРєСЂРѕР»Р»РµСЂ
 				});
-				$('.aday').removeClass('active');	// убираем всем другим дням класс активности
-				$(this).addClass('active');	// задаем текущему. на самом деле бред, но если вдруг коннект пропадет и ajax не сработает, то даты будут кликабельны :)
+				$('.aday').removeClass('active');	// СѓР±РёСЂР°РµРј РІСЃРµРј РґСЂСѓРіРёРј РґРЅСЏРј РєР»Р°СЃСЃ Р°РєС‚РёРІРЅРѕСЃС‚Рё
+				$(this).addClass('active');	// Р·Р°РґР°РµРј С‚РµРєСѓС‰РµРјСѓ. РЅР° СЃР°РјРѕРј РґРµР»Рµ Р±СЂРµРґ, РЅРѕ РµСЃР»Рё РІРґСЂСѓРі РєРѕРЅРЅРµРєС‚ РїСЂРѕРїР°РґРµС‚ Рё ajax РЅРµ СЃСЂР°Р±РѕС‚Р°РµС‚, С‚Рѕ РґР°С‚С‹ Р±СѓРґСѓС‚ РєР»РёРєР°Р±РµР»СЊРЅС‹ :)
 			});
 			
-			$('.tab_click').bind('click', function() {	// если кликаем на таб (топ100 или хистори)
-				$('.tab_click').removeClass('active');	// убираем всем статус активности
-				$(this).addClass('active');	// задаем активным кликнутый таб
+			$('.tab_click').bind('click', function() {	// РµСЃР»Рё РєР»РёРєР°РµРј РЅР° С‚Р°Р± (С‚РѕРї100 РёР»Рё С…РёСЃС‚РѕСЂРё)
+				$('.tab_click').removeClass('active');	// СѓР±РёСЂР°РµРј РІСЃРµРј СЃС‚Р°С‚СѓСЃ Р°РєС‚РёРІРЅРѕСЃС‚Рё
+				$(this).addClass('active');	// Р·Р°РґР°РµРј Р°РєС‚РёРІРЅС‹Рј РєР»РёРєРЅСѓС‚С‹Р№ С‚Р°Р±
 				
-				switch ($(this).attr('id')) {	// выбираем что тыкнули
-					case 'tabtop100': {	// если топ100
-						$.ajax({url: '//www.radiorecord.ru/radio/top100/detail-flat.php?station='+radio}).done(function(top100data) {	// делаем аякс... все тоже самое, что и раньше
+				switch ($(this).attr('id')) {	// РІС‹Р±РёСЂР°РµРј С‡С‚Рѕ С‚С‹РєРЅСѓР»Рё
+					case 'tabtop100': {	// РµСЃР»Рё С‚РѕРї100
+						$.ajax({url: '//www.radiorecord.ru/radio/top100/detail-flat.php?station='+radio}).done(function(top100data) {	// РґРµР»Р°РµРј Р°СЏРєСЃ... РІСЃРµ С‚РѕР¶Рµ СЃР°РјРѕРµ, С‡С‚Рѕ Рё СЂР°РЅСЊС€Рµ
 							var pane = $('.tab_content');
 							var api = pane.data('jsp');
 							api.getContentPane().html(top100data)
@@ -470,8 +474,8 @@ if(isset($_GET['from'])) {
 						});
 						break;
 					}
-					case 'tabhistor': {	// если хистори
-						$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day=today'}).done(function(histordata) {	// ну и так понятно... см. выше
+					case 'tabhistor': {	// РµСЃР»Рё С…РёСЃС‚РѕСЂРё
+						$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day=today'}).done(function(histordata) {	// РЅСѓ Рё С‚Р°Рє РїРѕРЅСЏС‚РЅРѕ... СЃРј. РІС‹С€Рµ
 							var pane = $('.tab_content');
 							var api = pane.data('jsp');
 							api.getContentPane().html(histordata);
@@ -483,34 +487,34 @@ if(isset($_GET['from'])) {
 				
 			});
 			
-			$('.block-header').bind('click', function() {	// заголовок у нас работает как возврат к списку радиостанций - нативно только айфонщикам. у руководство айоны, поэтому возврат вот такой...
-				$('.inner_pl').animate({left: "680"},550,function() {});	// мягко убираем детальную страницу вправо
+			$('.block-header').bind('click', function() {	// Р·Р°РіРѕР»РѕРІРѕРє Сѓ РЅР°СЃ СЂР°Р±РѕС‚Р°РµС‚ РєР°Рє РІРѕР·РІСЂР°С‚ Рє СЃРїРёСЃРєСѓ СЂР°РґРёРѕСЃС‚Р°РЅС†РёР№ - РЅР°С‚РёРІРЅРѕ С‚РѕР»СЊРєРѕ Р°Р№С„РѕРЅС‰РёРєР°Рј. Сѓ СЂСѓРєРѕРІРѕРґСЃС‚РІРѕ Р°Р№РѕРЅС‹, РїРѕСЌС‚РѕРјСѓ РІРѕР·РІСЂР°С‚ РІРѕС‚ С‚Р°РєРѕР№...
+				$('.inner_pl').animate({left: "680"},550,function() {});	// РјСЏРіРєРѕ СѓР±РёСЂР°РµРј РґРµС‚Р°Р»СЊРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ РІРїСЂР°РІРѕ
 				$(this).html('Record Online<?if($from):?><span class="icon-player-block-undock"></span><?endif;?>');
 				Cufon.refresh('.dintext-font');
 			});
 			
-			$('.sm2_link').live('click', function() {	// если тыкаем на аудиоссылку
-				if($(this).hasClass('playing')) {	// если мы уже тыкали на нее до этого, то
-					stop_play();	// останавливаем звучание
-					$(this).removeClass('playing');	// убираем класс плейэбельности
+			$('.sm2_link').live('click', function() {	// РµСЃР»Рё С‚С‹РєР°РµРј РЅР° Р°СѓРґРёРѕСЃСЃС‹Р»РєСѓ
+				if($(this).hasClass('playing')) {	// РµСЃР»Рё РјС‹ СѓР¶Рµ С‚С‹РєР°Р»Рё РЅР° РЅРµРµ РґРѕ СЌС‚РѕРіРѕ, С‚Рѕ
+					stop_play();	// РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј Р·РІСѓС‡Р°РЅРёРµ
+					$(this).removeClass('playing');	// СѓР±РёСЂР°РµРј РєР»Р°СЃСЃ РїР»РµР№СЌР±РµР»СЊРЅРѕСЃС‚Рё
 				}
-				else {	// если не тыкали до этого
-					start_play($(this).attr('href'));	// запускаем звучание ссылки
-					$('.sm2_link').removeClass('playing');	// у всех убираем статус плейнутости
-					$(this).addClass('playing');	// даем класс плейнутости текущему
-					now_pos_id = $('.tab_content').find('.playing').attr('id');	// получаем id тега аудиозаписи, проигрываемой в данный момент
+				else {	// РµСЃР»Рё РЅРµ С‚С‹РєР°Р»Рё РґРѕ СЌС‚РѕРіРѕ
+					start_play($(this).attr('href'));	// Р·Р°РїСѓСЃРєР°РµРј Р·РІСѓС‡Р°РЅРёРµ СЃСЃС‹Р»РєРё
+					$('.sm2_link').removeClass('playing');	// Сѓ РІСЃРµС… СѓР±РёСЂР°РµРј СЃС‚Р°С‚СѓСЃ РїР»РµР№РЅСѓС‚РѕСЃС‚Рё
+					$(this).addClass('playing');	// РґР°РµРј РєР»Р°СЃСЃ РїР»РµР№РЅСѓС‚РѕСЃС‚Рё С‚РµРєСѓС‰РµРјСѓ
+					now_pos_id = $('.tab_content').find('.playing').attr('id');	// РїРѕР»СѓС‡Р°РµРј id С‚РµРіР° Р°СѓРґРёРѕР·Р°РїРёСЃРё, РїСЂРѕРёРіСЂС‹РІР°РµРјРѕР№ РІ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚
 					//console.log(now_pos_id);
 					
-					if(now_pos_id.indexOf('history')==0) {	// если это история
-						histogram_id = $('div[hid='+now_pos_id+']').children('.histogram_back');	// то адрес гистограммы заполняем для атрибута hid
-						$('div[hid='+now_pos_id+']').children('.histogram_top').css('display', 'block');	// включаем кликабельный слой
+					if(now_pos_id.indexOf('history')==0) {	// РµСЃР»Рё СЌС‚Рѕ РёСЃС‚РѕСЂРёСЏ
+						histogram_id = $('div[hid='+now_pos_id+']').children('.histogram_back');	// С‚Рѕ Р°РґСЂРµСЃ РіРёСЃС‚РѕРіСЂР°РјРјС‹ Р·Р°РїРѕР»РЅСЏРµРј РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° hid
+						$('div[hid='+now_pos_id+']').children('.histogram_top').css('display', 'block');	// РІРєР»СЋС‡Р°РµРј РєР»РёРєР°Р±РµР»СЊРЅС‹Р№ СЃР»РѕР№
 					}
-					else { // иначе мы в топ1000
-						histogram_id = $('div[mid='+now_pos_id+']').children('.histogram_back');	// то адрес гистограммы заполняем для атрибута mid
-						$('div[mid='+now_pos_id+']').children('.histogram_top').css('display', 'block');	// включаем кликабельный слой
+					else { // РёРЅР°С‡Рµ РјС‹ РІ С‚РѕРї1000
+						histogram_id = $('div[mid='+now_pos_id+']').children('.histogram_back');	// С‚Рѕ Р°РґСЂРµСЃ РіРёСЃС‚РѕРіСЂР°РјРјС‹ Р·Р°РїРѕР»РЅСЏРµРј РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° mid
+						$('div[mid='+now_pos_id+']').children('.histogram_top').css('display', 'block');	// РІРєР»СЋС‡Р°РµРј РєР»РёРєР°Р±РµР»СЊРЅС‹Р№ СЃР»РѕР№
 					}
 				}
-				return false;	// и останавливаем безудержное желание браузера проследовать по ссылке
+				return false;	// Рё РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј Р±РµР·СѓРґРµСЂР¶РЅРѕРµ Р¶РµР»Р°РЅРёРµ Р±СЂР°СѓР·РµСЂР° РїСЂРѕСЃР»РµРґРѕРІР°С‚СЊ РїРѕ СЃСЃС‹Р»РєРµ
 			});
 			
 			$('.icon-player-block-undock').bind('click', function() {
@@ -537,16 +541,16 @@ if(isset($_GET['from'])) {
 	   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
 	})(document, window);
 	//]]></script><noscript><div style="position:absolute;left:-10000px;">
-	<img src="//top-fwz1.mail.ru/counter?id=650785;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+	<img src="//top-fwz1.mail.ru/counter?id=650785;js=na" style="border:0;" height="1" width="1" alt="Р РµР№С‚РёРЅРі@Mail.ru" />
 	</div></noscript>
 	<!-- //Rating@Mail.ru counter -->
 	<!-- Rating@Mail.ru logo -->
 	<a href="http://top.mail.ru/jump?from=650785">
 	<img src="//top-fwz1.mail.ru/counter?id=650785;t=433;l=1" 
-	style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a>
+	style="border:0;" height="31" width="88" alt="Р РµР№С‚РёРЅРі@Mail.ru" /></a>
 	<!-- //Rating@Mail.ru logo -->
 	<!--LiveInternet counter-->
-	<script>document.write("<a href='http://www.liveinternet.ru/click' "+"target=_blank><img src='//counter.yadro.ru/hit?t22.4;r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random()+"' alt='' title='LiveInternet: показано число просмотров за 24"+" часа, посетителей за 24 часа и за сегодня' "+"border='0' width='88' height='31'/><\/a>")</script>
+	<script>document.write("<a href='http://www.liveinternet.ru/click' "+"target=_blank><img src='//counter.yadro.ru/hit?t22.4;r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random()+"' alt='' title='LiveInternet: РїРѕРєР°Р·Р°РЅРѕ С‡РёСЃР»Рѕ РїСЂРѕСЃРјРѕС‚СЂРѕРІ Р·Р° 24"+" С‡Р°СЃР°, РїРѕСЃРµС‚РёС‚РµР»РµР№ Р·Р° 24 С‡Р°СЃР° Рё Р·Р° СЃРµРіРѕРґРЅСЏ' "+"border='0' width='88' height='31'/><\/a>")</script>
 	<!--/LiveInternet-->
 	<!-- begin of Top100 code -->
 	<script id="top100Counter" type="text/javascript" src="//counter.rambler.ru/top100.jcn?2283994"></script>
@@ -557,7 +561,7 @@ if(isset($_GET['from'])) {
 	</noscript>
 	<!-- end of Top100 code -->
 	<!-- Yandex.Metrika informer -->
-	<a href="http://metrika.yandex.ru/stat/?id=176199&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/176199/3_0_4458E0FF_2438C0FF_1_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a><!-- /Yandex.Metrika informer --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter176199 = new Ya.Metrika({id:176199, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/176199" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<a href="http://metrika.yandex.ru/stat/?id=176199&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/176199/3_0_4458E0FF_2438C0FF_1_pageviews" style="width:88px; height:31px; border:0;" alt="РЇРЅРґРµРєСЃ.РњРµС‚СЂРёРєР°" title="РЇРЅРґРµРєСЃ.РњРµС‚СЂРёРєР°: РґР°РЅРЅС‹Рµ Р·Р° СЃРµРіРѕРґРЅСЏ (РїСЂРѕСЃРјРѕС‚СЂС‹, РІРёР·РёС‚С‹ Рё СѓРЅРёРєР°Р»СЊРЅС‹Рµ РїРѕСЃРµС‚РёС‚РµР»Рё)" /></a><!-- /Yandex.Metrika informer --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter176199 = new Ya.Metrika({id:176199, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/176199" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 	<a href="https://plus.google.com/115145545973978318825?rel=author">Google</a>
 </div>
