@@ -368,7 +368,7 @@ if(isset($_GET['from'])) {
 				var artist = $('.nowtrack').children('.artist').text();
 				var name = $('.nowtrack').children('.title').text();
 				if(artist!='Record Dance Radio') { 
-					ga('send', 'event', 'LikeAudio', 'record', artist+' - '+name);
+					ga('send', 'event', 'LikeAudio', radiof, artist+' - '+name);
 				}
 				artist = encodeURIComponent(artist);
 				name = encodeURIComponent(name);
