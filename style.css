@@ -148,8 +148,6 @@ div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; 
 	#yo .station-img { background-position: -1260px 0px; }
 #trap { }
 	#trap .station-img { background-position: -1428px 0px; }
-#rock { }
-	#rock .station-img { background-position: -1512px 0px; }
 	
 	
 .inner_pl { position: absolute; top: 0px; width: 680px; height: 422px; overflow: hidden; background-color: #b1c7dd; top: 42px; left: 680px; }
@@ -157,7 +155,7 @@ div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; 
 	.bigimage .imgcontent { width: 100%; height: 100%; background-position: top center; background-repeat: no-repeat; background-size: cover; }
 	.right_pl { width: 340px; height: 363px; float: left; -moz-user-select: none; -webkit-user-select: none; -khtml-user-select: none; }
 	.right_pl .tabs { overflow: hidden; background-color: #b1c7dd; height: 47px; }
-	.right_pl .tabs div { float: left; background-color: #667f9e; overflow: hidden; font-weight: bold; height: 46px; line-height: 46px; width: 50%; text-transform: uppercase; cursor: pointer; }
+	.right_pl .tabs div { float: left; background-color: #667f9e; overflow: hidden; font-weight: bold; height: 46px; line-height: 48px; width: 50%; text-transform: uppercase; cursor: pointer; }
 	.right_pl .tabs div.active { background-color: #b1c7dd; }
 	.right_pl .tabs div#tabtop100 { }
 	.right_pl .tabs div#tabtop100 span.dintext-font { height: 17px; background-position: 0px -31px; margin-left: 10px; background-image: url('tabicon.png'); padding-left: 20px; background-repeat: no-repeat; }
@@ -176,11 +174,14 @@ div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; 
 	.right_pl .tab_content .top100_media .text_info a.sm2_link.playing { background-position: 0px -54px; }
 	.right_pl .tab_content .top100_media .text_info a.sm2_link span.top100_artist { font-weight: bold;  display: block; text-overflow: ellipsis; overflow: hidden; }
 	.right_pl .tab_content .top100_media .text_info a.sm2_link span.top100_title { display: block; text-overflow: ellipsis; overflow: hidden; }
-	.right_pl .tab_content .top100_media .histogram_back { height: 49px; position: absolute; background-color: #bfcfdd; width: 0px; z-index: 2; }
-	.right_pl .tab_content .top100_media .histogram_top { height: 49px; position: absolute; width: 323px; z-index: 6; display: none; background-image: url('img/player_click.gif'); background-repeat: repeat-y; background-position: -1px 0px; }
+	.right_pl .tab_content .top100_media.active .histogram_back_load { height: 2px; position: absolute; background-color: #b6cad8; z-index: 4; margin-top: 47px; transition: all 0.1s ease; }
+	.right_pl .tab_content .top100_media.active:hover .histogram_back_load { height: 10px; margin-top: 39px; }
+	.right_pl .tab_content .top100_media.active .histogram_back { height: 2px; position: absolute; background-color: #456287; z-index: 5; margin-top: 47px; transition: all 0.1s ease; }
+	.right_pl .tab_content .top100_media.active:hover .histogram_back { height: 10px; margin-top: 39px; }
+	.right_pl .tab_content .top100_media.active .histogram_top { height: 10px; position: absolute; width: 323px; z-index: 6; display: none; background-image: url('img/player_click.gif'); background-repeat: repeat-y; background-position: -1px 0px; margin-top: 39px; }
+	.right_pl .tab_content .top100_media.active:hover .histogram_top { }
 	
 	.right_pl .tab_content .history_media { height: 49px; background-color: white; }
-	.right_pl .tab_content .history_media.hidden { display: none; }
 	.right_pl .tab_content .history_media:nth-child(odd) { background-color: #e0e9f1; }
 	.right_pl .tab_content .history_media .text_info { height: 100%; z-index: 5; position: relative; }
 	.right_pl .tab_content .history_media .text_info .history_time { width: 58px; text-align: center; display: block; float: left; line-height: 49px; color: #283b53; font-size: 11px; }
@@ -188,8 +189,12 @@ div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; 
 	.right_pl .tab_content .history_media .text_info a.sm2_link.playing { background-position: 0px -54px; }
 	.right_pl .tab_content .history_media .text_info a.sm2_link span.history_artist { font-weight: bold;  display: block; text-overflow: ellipsis; overflow: hidden; }
 	.right_pl .tab_content .history_media .text_info a.sm2_link span.history_title { display: block; text-overflow: ellipsis; overflow: hidden; }
-	.right_pl .tab_content .history_media .histogram_back { height: 49px; position: absolute; background-color: #bfcfdd; width: 0px; z-index: 2; }
-	.right_pl .tab_content .history_media .histogram_top { height: 49px; position: absolute; width: 323px; z-index: 6; display: none; background-image: url('img/player_click.gif'); background-repeat: repeat-y; background-position: -1px 0px; }
+	.right_pl .tab_content .history_media.active .histogram_back_load { height: 2px; position: absolute; background-color: #b6cad8; z-index: 4; margin-top: 47px; transition: all 0.1s ease; }
+	.right_pl .tab_content .history_media.active:hover .histogram_back_load { height: 10px; margin-top: 39px; }
+	.right_pl .tab_content .history_media.active .histogram_back { height: 2px; position: absolute; background-color: #456287; z-index: 5; margin-top: 47px; transition: all 0.1s ease; }
+	.right_pl .tab_content .history_media.active:hover .histogram_back { height: 10px; margin-top: 39px; }
+	.right_pl .tab_content .history_media.active .histogram_top { height: 10px; position: absolute; width: 323px; z-index: 6; display: none; background-image: url('img/player_click.gif'); background-repeat: repeat-y; background-position: -1px 0px; margin-top: 39px; }
+	.right_pl .tab_content .history_media.active:hover .histogram_top { }
 	
 	.daytabs { overflow: hidden; }
 	.daytabs .aday { float: left; cursor: pointer; font-size: 12px; width: 25%; color: #69809c; height: 24px; line-height: 24px; text-align: center; }
