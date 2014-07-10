@@ -1,0 +1,6 @@
+[submodule "js/SoundManager2"]
+	path = js/SoundManager2
+	url = git@github.com:scottschiller/SoundManager2.git
+[submodule "js/jquery"]
+	path = js/jquery
+	url = git@github.com:jquery/jquery.git
