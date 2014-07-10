@@ -4,6 +4,39 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 html, body {  overflow: hidden; width: 680px; position: relative; }
 .hidden { display: none; overflow: hidden; width: 0px; height: 0px; position: abolute; top: -9999px; left: -9999px; }
 
+@font-face {
+    font-family: 'pf_dintext_pro';
+    src: url(/i/fonts/pfdintextpro-bold-webfont.eot);
+    src: url(/i/fonts/pfdintextpro-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(/i/fonts/pfdintextpro-bold-webfont.woff) format('woff'),
+         url(/i/fonts/pfdintextpro-bold-webfont.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_dintext_pro';
+    src: url(/i/fonts/pfdintextpro-regular-webfont.eot);
+    src: url(/i/fonts/pfdintextpro-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(/i/fonts/pfdintextpro-regular-webfont.woff) format('woff'),
+         url(/i/fonts/pfdintextpro-regular-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_dintext_pro';
+    src: url(/i/fonts/pfdintextpro-thin-webfont.eot);
+    src: url(/i/fonts/pfdintextpro-thin-webfont.eot?#iefix) format('embedded-opentype'),
+         url(/i/fonts/pfdintextpro-thin-webfont.woff) format('woff'),
+         url(/i/fonts/pfdintextpro-thin-webfont.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+.dintext-font { font-family: pf_dintext_pro; }
+
 .block-header { display: block; cursor: pointer; padding: 10px 15px; text-transform: uppercase; font-size: 18px; margin: 0px; background-color: #000; color: #fff; }
 .block-header i { margin-right: 12px; font-size: 20px; color: #00d8ff; }
 .block-header:hover { }
@@ -155,7 +188,7 @@ div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; 
 	.bigimage .imgcontent { width: 100%; height: 100%; background-position: top center; background-repeat: no-repeat; background-size: cover; }
 	.right_pl { width: 340px; height: 363px; float: left; -moz-user-select: none; -webkit-user-select: none; -khtml-user-select: none; }
 	.right_pl .tabs { overflow: hidden; background-color: #b1c7dd; height: 47px; }
-	.right_pl .tabs div { float: left; background-color: #667f9e; overflow: hidden; font-weight: bold; height: 46px; line-height: 48px; width: 50%; text-transform: uppercase; cursor: pointer; }
+	.right_pl .tabs div { float: left; background-color: #667f9e; overflow: hidden; height: 46px; line-height: 48px; width: 50%; text-transform: uppercase; cursor: pointer; font-size: 16px; }
 	.right_pl .tabs div.active { background-color: #b1c7dd; }
 	.right_pl .tabs div#tabtop100 { }
 	.right_pl .tabs div#tabtop100 span.dintext-font { height: 17px; background-position: 0px -31px; margin-left: 10px; background-image: url('tabicon.png'); padding-left: 20px; background-repeat: no-repeat; }

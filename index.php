@@ -20,13 +20,13 @@ if(isset($_GET['from'])) {
 		
 		<meta property="og:title" content="Record Online Player" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.radiorecord.ru/player/tab8/" />
-		<meta property="og:image" content="http://www.radiorecord.ru/player/tab8/pl_logo.jpg" />
+		<meta property="og:url" content="http://www.radiorecord.ru/player/" />
+		<meta property="og:image" content="http://www.radiorecord.ru/player/pl_logo.jpg" />
 		
-		<link rel="stylesheet" href="//www.radiorecord.ru/i/css/jquery-ui.overcast/top100.css" />
+		<link rel="stylesheet" href="/i/css/jquery-ui.overcast/top100.css" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="jquery.jscrollpane.css" />
-		<link href="/i/css/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="/i/css/font-awesome/css/font-awesome.min.css">
 		
 		<script src="js/jquery-2.1.1.min.js"></script>
 		<script src="js/jquery-ui.min.js"></script>
@@ -34,9 +34,6 @@ if(isset($_GET['from'])) {
 		<script src="js/jquery.mousewheel.js"></script>
 		<script src="js/jquery.jscrollpane.min.49px.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/cufon.js"></script>
-		<script src="js/PF_DinText_Pro_Medium_500.font.js"></script>
-		<script>Cufon.replace(['.dintext-font'], {});</script>
 		
 		<script src="js/openapi.js"></script>
 		<script>VK.init({apiId: 3733168, onlyWidgets: true});</script>
@@ -484,7 +481,6 @@ if(isset($_GET['from'])) {
 					$('#tabtop100').trigger('click');	// показываем топ100 по-умолчанию эмуляций клика на него
 					
 					$('.block-header').html('<i class="fa fa-arrow-left"></i>'+$(this).find('.station-name').html()+'<?if($from):?><span class="icon-player-block-undock"></span><?endif;?>');
-					Cufon.refresh('.dintext-font');
 				}
 			});
 		
@@ -540,7 +536,6 @@ if(isset($_GET['from'])) {
 			$('.block-header').bind('click', function() {	// заголовок у нас работает как возврат к списку радиостанций - нативно только айфонщикам. у руководство айоны, поэтому возврат вот такой...
 				$('.inner_pl').animate({left: "680"},550,function() {});	// мягко убираем детальную страницу вправо
 				$(this).html('Record Online<?if($from):?><span class="icon-player-block-undock"></span><?endif;?>');
-				Cufon.refresh('.dintext-font');
 			});
 			
 			$(document).on('click', '.sm2_link', function(e) {	// если тыкаем на аудиоссылку
