@@ -494,7 +494,7 @@ if(isset($_GET['from'])) {
 			
 			history_day = 'today'; // для истории показываем по-умолчанию текущий день
 			
-			$('.aday').on('click', function() {	// если кликаем на какой-то день
+			$(document).on('click', '.aday', function() {	// если кликаем на какой-то день
 				history_day = $(this).attr('value');	// то выбранный день берется из value кликнутого дня
 				$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day='+history_day}).done(function(histordata) {	// делаем нежный ajax-Запрос
 					var pane = $('.tab_content');	// чтоб не забыть)
