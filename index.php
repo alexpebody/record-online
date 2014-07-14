@@ -28,7 +28,7 @@ if(isset($_GET['from'])) {
 		<link rel="stylesheet" href="jquery.jscrollpane.css" />
 		<link rel="stylesheet" href="/i/css/font-awesome/css/font-awesome.min.css">
 		
-		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery-1.7.2.min.js"></script>
 		<script src="js/jquery-ui.min.js"></script>
 		<script src="js/jquery.Storage.js"></script>
 		<script src="js/jquery.mousewheel.js"></script>
