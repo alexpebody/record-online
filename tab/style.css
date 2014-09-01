@@ -1,5 +1,36 @@
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 
+@font-face {
+	font-family: 'pf_dintext_pro';
+	src: url(http://www.radiorecord.ru/i/fonts/pfdintextpro-bold-webfont.eot);
+	src: url(http://www.radiorecord.ru/i/fonts/pfdintextpro-bold-webfont.eot?#iefix) format('embedded-opentype'),
+		 url(http://www.radiorecord.ru/i/fonts/pfdintextpro-bold-webfont.woff) format('woff'),
+		 url(http://www.radiorecord.ru/i/fonts/pfdintextpro-bold-webfont.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'pf_dintext_pro';
+	src: url(http://www.radiorecord.ru/i/fonts/pfdintextpro-regular-webfont.eot);
+	src: url(http://www.radiorecord.ru/i/fonts/pfdintextpro-regular-webfont.eot?#iefix) format('embedded-opentype'),
+		 url(http://www.radiorecord.ru/i/fonts/pfdintextpro-regular-webfont.woff) format('woff'),
+		 url(http://www.radiorecord.ru/i/fonts/pfdintextpro-regular-webfont.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'pf_dintext_pro';
+	src: url(http://www.radiorecord.ru/i/fonts/pfdintextpro-thin-webfont.eot);
+	src: url(http://www.radiorecord.ru/i/fonts/pfdintextpro-thin-webfont.eot?#iefix) format('embedded-opentype'),
+		 url(http://www.radiorecord.ru/i/fonts/pfdintextpro-thin-webfont.woff) format('woff'),
+		 url(http://www.radiorecord.ru/i/fonts/pfdintextpro-thin-webfont.ttf) format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+
+}
+		
 .wrapper { width: 800px; font-family: Arial; font-size: 12px; }
 	.pole_top { width: 100%; height: 58px; background-color: #041421; overflow: hidden; }
 		.pole_top .logo { padding: 8px; float: left; border-right: 1px #1b3143 solid; overflow: hidden; cursor: pointer; }
@@ -46,7 +77,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 		.pole_content .active { background-color: #6b7891; background-image: url('ug.png'); background-position: bottom right; background-repeat: no-repeat; }
 		.pole_content .active .station-name { color: white !important; }
 		.pole_content .station .station-img { width: 84px; height: 53px; background-image: url('img/sprite.jpg'); margin: 7px; float: left; }
-		.pole_content .station .station-name { text-transform: uppercase; color: #4e4e4e; font-size: 15px; font-family: Tahoma; display: block; overflow: hidden; }
+		.pole_content .station .station-name { text-transform: uppercase; color: #4e4e4e; font-size: 15px; font-family: pf_dintext_pro; display: block; overflow: hidden; }
 		.pole_content .station .station-prod { color: #bec0c5; font-size: 9px; }
 		.pole_content .station .station-text { height: 67px; display: table-cell; vertical-align: middle; }
 		

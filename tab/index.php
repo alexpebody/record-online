@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<title>Record Online Player</title>
-		<link rel="stylesheet" href="style.css?t=<?=time()?>" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 <script>
@@ -30,9 +30,9 @@
 					</div>
 				</div>
 				<div class="bitrate">
-					<div id="l32" class="bit">32 kbps</div>
-					<div id="l64" class="bit active">64 kbps</div>
+					<div id="l64" class="bit">64 kbps</div>
 					<div id="l128" class="bit">128 kbps</div>
+					<div id="l320" class="bit active">320 kbps</div>
 				</div>
 				<div class="radio-pages">
 					<div class="top100"></div>
@@ -56,126 +56,126 @@
 				<div class="station" id="rr">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Radio Record</div>
+						<div class="station-name">Radio Record</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="ps">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Pirate Station</div>
+						<div class="station-name">Pirate Station</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="pump">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Pump'n'Klubb</div>
+						<div class="station-name">Pump'n'Klubb</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="brks">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Breaks</div>
+						<div class="station-name">Record Breaks</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="chil">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Chill-Out</div>
+						<div class="station-name">Record Chill-Out</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="club">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Club</div>
+						<div class="station-name">Record Club</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="dc">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Dancecore</div>
+						<div class="station-name">Record Dancecore</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="deep">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Deep</div>
+						<div class="station-name">Record Deep</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="dub">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Dubstep</div>
+						<div class="station-name">Record Dubstep</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="rus">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Russian Mix</div>
+						<div class="station-name">Russian Mix</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="teo">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Teodor Hardstyle</div>
+						<div class="station-name">Teodor Hardstyle</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="tm">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Trancemission</div>
+						<div class="station-name">Trancemission</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="vip">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Vip Mix</div>
+						<div class="station-name">Vip Mix</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="yo">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Yo! FM</div>
+						<div class="station-name">Yo! FM</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="gop">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Гоп FM</div>
+						<div class="station-name">Р“РѕРї FM</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="mdl">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Медляк FM</div>
+						<div class="station-name">РњРµРґР»СЏРє FM</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="sd90">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Супердискотека 90-х</div>
+						<div class="station-name">РЎСѓРїРµСЂРґРёСЃРєРѕС‚РµРєР° 90-С…</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
 				<div class="station" id="trap">
 					<div class="station-img"></div>
 					<div class="station-text">
-						<div class="station-name dintext-font">Record Trap</div>
+						<div class="station-name">Record Trap</div>
 						<div class="station-prod"></div>
 					</div>
 				</div>
@@ -220,7 +220,7 @@
 						"CACHE_GROUPS" => "Y",
 						"DISPLAY_TOP_PAGER" => "N",
 						"DISPLAY_BOTTOM_PAGER" => "N",
-						"PAGER_TITLE" => "Аудиозаписи",
+						"PAGER_TITLE" => "РђСѓРґРёРѕР·Р°РїРёСЃРё",
 						"PAGER_SHOW_ALWAYS" => "N",
 						"PAGER_TEMPLATE" => "",
 						"PAGER_DESC_NUMBERING" => "N",
@@ -237,21 +237,18 @@
 			<div class="vkla history"></div>
 			<div class="vkla top100"></div>
 			<div class="vkla rshop">
-				<iframe id='rshop-iframe' src="http://www.radiorecord.ru/player/tab/rshop-catalog.php" width="710" height="15900" style="border: none;"></iframe>
+				<iframe id='rshop-iframe' src="http://www.radiorecord.ru/player/tab/rshop-catalog.php" width="710" style="width: 710px; min-height: 738px; overflow-x: hidden; overflow-y: scroll; border: none;"></iframe>
 			</div>
 		</td>
 		
 		</table>
-		<script src="http://i.radiorecord.ru/js/openapi.js"></script>
+		<script src="http://www.radiorecord.ru/i/js/openapi.js"></script>
 		<script src="http://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
 		<script>VK.init({apiId: 3733168, onlyWidgets: true});</script>
-		<script src="http://i.radiorecord.ru/js/jquery-1.7.2.min.js"></script>
-		<script src="http://i.radiorecord.ru/js/jquery-ui.min.js"></script>
-		<script src="http://i.radiorecord.ru/js/jquery.easing.1.3.js"></script>
-		<script src="http://i.radiorecord.ru/js/cufon.js"></script>
-		<script src="http://i.radiorecord.ru/js/PF_DinText_Pro_Medium_500.font.js"></script>
-		<script>Cufon.replace(['.dintext-font'], {});</script>
-		<script src="http://i.radiorecord.ru/js/jquery.Storage.js"></script>
+		<script src="http://www.radiorecord.ru/i/js/jquery-1.7.2.min.js"></script>
+		<script src="http://www.radiorecord.ru/i/js/jquery-ui.min.js"></script>
+		<script src="http://www.radiorecord.ru/i/js/jquery.easing.1.3.js"></script>
+		<script src="http://www.radiorecord.ru/i/js/jquery.Storage.js"></script>
 		<script src="js/soundmanager2.js"></script>
 		<script>
 			soundManager.url = 'http://www.radiorecord.ru/player/tab/js/swf/';
@@ -263,8 +260,8 @@
 		
 			var air = new Object();
 			air.status	= 'stop';
-			air.bitrate	= 'l64';
-			//if ($.browser.mozilla) air.bitrate	= 'moz64';
+			air.bitrate	= 'l320';
+			//if ($.browser.mozilla) air.bitrate	= 'moz128';
 			air.station	= 1;
 			if($.Storage.get("record_volume")) {
 				air.volume	= $.Storage.get("record_volume");
@@ -323,24 +320,24 @@
 	
 			var station = new Object();
 			station.link = new Object();
-			station.link.rr 	= {	link:	{	l32: 'http://air.radiorecord.ru:8100/rr_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8100/rr_aac_64?type=.flv', 		l128: 'http://air.radiorecord.ru:8101/rr_128'		},	color: '#769800',	update: 'record'	};
-			station.link.tm 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/tm_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/tm_aac_64?type=.flv', 		l128: 'http://air.radiorecord.ru:8102/tm_128'		},	color: '#0e5b74',	update: 'trancemission'	};
-			station.link.ps 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/ps_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/ps_aac_64?type=.flv', 		l128: 'http://air.radiorecord.ru:8102/ps_128'		},	color: '#3a3a3a',	update: 'pirate'	};
-			station.link.vip 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/vip_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/vip_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/vip_128'		},	color: '#510052',	update: 'vip'	};
-			station.link.teo 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/teo_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/teo_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/teo_128'		},	color: '#3a3a3a',	update: 'theodor'	};
-			station.link.dc 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/dc_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/dc_aac_64?type=.flv', 		l128: 'http://air.radiorecord.ru:8102/dc_128'		},	color: '#833100',	update: 'dancecore'	};
-			station.link.brks 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/brks_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/brks_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/brks_128'		},	color: '#376100',	update: 'brks'	};
-			station.link.chil 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/chil_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/chil_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/chil_128'		},	color: '#80298d',	update: 'chil'	};
-			station.link.dub 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/dub_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/dub_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/dub_128'		},	color: '#677723',	update: 'dub'	};
-			station.link.sd90 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/sd90_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/sd90_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/sd90_128'		},	color: '#8c8e00',	update: 'sd90'	};
-			station.link.club 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/club_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/club_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/club_128'		},	color: '#002d70',	update: 'club'	};
-			station.link.mdl 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/mdl_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/mdl_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/mdl_128'		},	color: '#6c4c07',	update: 'mdl'	};
-			station.link.gop 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/gop_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/gop_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/gop_128'		},	color: '#760000',	update: 'gopfm'	};
-			station.link.pump 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/pump_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/pump_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/pump_128'		},	color: '#760000',	update: 'pump'	};
-			station.link.rus 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/rus_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/rus_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/rus_128'		},	color: '#760000',	update: 'rus'	};
-			station.link.yo 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/yo_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/yo_aac_64?type=.flv', 		l128: 'http://air.radiorecord.ru:8102/yo_128'		},	color: '#760000',	update: 'yo'	};
-			station.link.deep 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/deep_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/deep_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/deep_128'		},	color: '#760000',	update: 'deep'	};
-			station.link.trap 	= {	link:	{	l32: 'http://air.radiorecord.ru:8102/trap_aac?type=.flv', 		l64: 'http://air.radiorecord.ru:8102/trap_aac_64?type=.flv', 	l128: 'http://air.radiorecord.ru:8102/trap_128'		},	color: '#760000',	update: 'trap'	};
+			station.link.rr 	= {	link:	{	l64: 'http://air.radiorecord.ru:8100/rr_64', 		l128: 'http://air.radiorecord.ru:8101/rr_128', 		l320: 'http://air.radiorecord.ru:8101/rr_320'		},	color: '#769800',	update: 'record'	};
+			station.link.tm 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/tm_64', 		l128: 'http://air.radiorecord.ru:8102/tm_128', 		l320: 'http://air.radiorecord.ru:8102/tm_320'		},	color: '#0e5b74',	update: 'trancemission'	};
+			station.link.ps 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/ps_64', 		l128: 'http://air.radiorecord.ru:8102/ps_128', 		l320: 'http://air.radiorecord.ru:8102/ps_320'		},	color: '#3a3a3a',	update: 'pirate'	};
+			station.link.vip 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/vip_64', 		l128: 'http://air.radiorecord.ru:8102/vip_128', 	l320: 'http://air.radiorecord.ru:8102/vip_320'		},	color: '#510052',	update: 'vip'	};
+			station.link.teo 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/teo_64', 		l128: 'http://air.radiorecord.ru:8102/teo_128', 	l320: 'http://air.radiorecord.ru:8102/teo_320'		},	color: '#3a3a3a',	update: 'theodor'	};
+			station.link.dc 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/dc_64', 		l128: 'http://air.radiorecord.ru:8102/dc_128', 		l320: 'http://air.radiorecord.ru:8102/dc_320'		},	color: '#833100',	update: 'dancecore'	};
+			station.link.brks 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/brks_64', 		l128: 'http://air.radiorecord.ru:8102/brks_128', 	l320: 'http://air.radiorecord.ru:8102/brks_320'		},	color: '#376100',	update: 'brks'	};
+			station.link.chil 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/chil_64', 		l128: 'http://air.radiorecord.ru:8102/chil_128', 	l320: 'http://air.radiorecord.ru:8102/chil_320'		},	color: '#80298d',	update: 'chil'	};
+			station.link.dub 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/dub_64', 		l128: 'http://air.radiorecord.ru:8102/dub_128', 	l320: 'http://air.radiorecord.ru:8102/dub_320'		},	color: '#677723',	update: 'dub'	};
+			station.link.sd90 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/sd90_64', 		l128: 'http://air.radiorecord.ru:8102/sd90_128', 	l320: 'http://air.radiorecord.ru:8102/sd90_320'		},	color: '#8c8e00',	update: 'sd90'	};
+			station.link.club 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/club_64', 		l128: 'http://air.radiorecord.ru:8102/club_128', 	l320: 'http://air.radiorecord.ru:8102/club_320'		},	color: '#002d70',	update: 'club'	};
+			station.link.mdl 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/mdl_64', 		l128: 'http://air.radiorecord.ru:8102/mdl_128', 	l320: 'http://air.radiorecord.ru:8102/mdl_320'		},	color: '#6c4c07',	update: 'mdl'	};
+			station.link.gop 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/gop_64', 		l128: 'http://air.radiorecord.ru:8102/gop_128', 	l320: 'http://air.radiorecord.ru:8102/gop_320'		},	color: '#760000',	update: 'gopfm'	};
+			station.link.pump 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/pump_64', 		l128: 'http://air.radiorecord.ru:8102/pump_128', 	l320: 'http://air.radiorecord.ru:8102/pump_320'		},	color: '#760000',	update: 'pump'	};
+			station.link.rus 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/rus_64', 		l128: 'http://air.radiorecord.ru:8102/rus_128', 	l320: 'http://air.radiorecord.ru:8102/rus_320'		},	color: '#760000',	update: 'rus'	};
+			station.link.yo 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/yo_64', 		l128: 'http://air.radiorecord.ru:8102/yo_128', 		l320: 'http://air.radiorecord.ru:8102/yo_320'		},	color: '#760000',	update: 'yo'	};
+			station.link.deep 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/deep_64', 		l128: 'http://air.radiorecord.ru:8102/deep_128', 	l320: 'http://air.radiorecord.ru:8102/deep_320'		},	color: '#760000',	update: 'deep'	};
+			station.link.trap 	= {	link:	{	l64: 'http://air.radiorecord.ru:8102/trap_64', 		l128: 'http://air.radiorecord.ru:8102/trap_128', 	l320: 'http://air.radiorecord.ru:8102/trap_320'		},	color: '#760000',	update: 'trap'	};
 
 			var curr_play = '';
 			var last_station = '';
@@ -355,7 +352,7 @@
 				}
 			});
 		
-				// запуск эфира
+				// Р·Р°РїСѓСЃРє СЌС„РёСЂР°
 			function start_air() {
 				if(radio!='playlist' && radio!='history' && radio!='top100') {
 					air_update = eval('station.link.'+radio+'.update');
@@ -382,7 +379,7 @@
 					//type: air.type,
 					type: 'video/x-flv',
 					onload: function() {
-						// ждем старта звучания
+						// Р¶РґРµРј СЃС‚Р°СЂС‚Р° Р·РІСѓС‡Р°РЅРёСЏ
 						$('.nowstation').children('.play').css('backgroundPosition', '0 -40px');
 						air.status	= 'play';
 						
@@ -396,7 +393,7 @@
 				$.Storage.set({"last_station": radio, "online_player": radio+"_active"});
 			}
 			
-				// остановка эфира
+				// РѕСЃС‚Р°РЅРѕРІРєР° СЌС„РёСЂР°
 			function stop_air() {
 				if (debug) { alert('stop_air'); radio = ''; air.link = ''; }
 				//clearTimeout(slider_time);
@@ -421,14 +418,16 @@
 			}
 			
 			
-				// изменение битрейта
+				// РёР·РјРµРЅРµРЅРёРµ Р±РёС‚СЂРµР№С‚Р°
 			$('.bit').click(function() {
 				if (!$(this).hasClass('active')) {
 					$('.bit').each(function() { $(this).removeClass('active'); });
 					$(this).addClass('active');
 					newbitrate = $(this).attr('id');
 					air.bitrate = newbitrate;
+					console.log(newbitrate);
 					air.link = eval('station.link.'+radio+'.link.'+newbitrate);
+					console.log(air.link);
 					stop_air();
 					start_air();
 				}
@@ -466,7 +465,6 @@
 			$('.station').click(function() {
 				$('.station').each(function() { $(this).removeClass('active'); });
 				$(this).addClass('active');
-				Cufon.refresh();
 				if (radio != $(this).attr('id')) {
 					stop_air();
 					$(this).addClass('nowstation');
@@ -479,14 +477,13 @@
 			});
 			var line = '';
 			function show_playlist(gid, aid, pl_name, pl_img) {
-				line = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+pl_img+'" width="69" height="69"></div><div class="playlist-nazva dintext-font">'+pl_name+'</div></div><div class="backlink">&larr; Все плейлисты</div></div>';
+				line = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+pl_img+'" width="69" height="69"></div><div class="playlist-nazva">'+pl_name+'</div></div><div class="backlink">&larr; Р’СЃРµ РїР»РµР№Р»РёСЃС‚С‹</div></div>';
 				VK.api('audio.get', { gid: gid, album_id: aid }, function(pl_music) {
 					if(pl_music.response) {
 						$.each(pl_music.response, function(key, value) {
 							line = line += '<a id="pl'+key+'" href="'+value.url+'" class="sm2_link">'+value.artist+' - '+value.title+'</a>';
 						});
 						$('.vkla.playlist-detail').html(line);
-						Cufon.refresh();
 						$('.backlink').click(function() {
 							$('div.tab.playlists').trigger('click');
 						});
@@ -499,7 +496,7 @@
 			
 				VK.api("getUserSettings", { }, function(data) {
 					if (data.response & 8192) {
-						VK.api('wall.post', { message: "Мне нравится новое приложение Radio Record Online! Заходи http://vk.com/onlinerecord" }, function(wallpost) {
+						VK.api('wall.post', { message: "РњРЅРµ РЅСЂР°РІРёС‚СЃСЏ РЅРѕРІРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ Radio Record Online! Р—Р°С…РѕРґРё http://vk.com/onlinerecord" }, function(wallpost) {
 							console.log(wallpost);
 						});
 					}
@@ -508,7 +505,7 @@
 							
 						});
 						VK.addCallback("onSettingsChanged", function(setres) {
-							VK.api('wall.post', { message: "Мне нравится новое приложение Radio Record Online! Заходи http://vk.com/onlinerecord" }, function(wallpost) {
+							VK.api('wall.post', { message: "РњРЅРµ РЅСЂР°РІРёС‚СЃСЏ РЅРѕРІРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ Radio Record Online! Р—Р°С…РѕРґРё http://vk.com/onlinerecord" }, function(wallpost) {
 								console.log(wallpost);
 							});
 						});
@@ -550,7 +547,7 @@
 				}
 				
 				if ($(this).hasClass('rshop')) {
-					VK.callMethod("resizeWindow", 800, 15900);
+					VK.callMethod("resizeWindow", 800, 811);
 				}
 				
 				if ($(this).hasClass('history')) {
@@ -735,12 +732,12 @@
 						hh_img = hh_img.replace('url(','').replace(')','');
 						hh_name = '';
 						$('#rr').find('cufontext').each(function() { hh_name = hh_name+' '+$(this).html(); });
-						history_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+hh_img+'" width="69" height="69"></div><div class="playlist-nazva dintext-font">'+hh_name+' History</div></div><div class="backlink_hh">&larr; Радио</div></div>'+history_html;
+						history_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+hh_img+'" width="69" height="69"></div><div class="playlist-nazva">'+hh_name+' History</div></div><div class="backlink_hh">&larr; Р Р°РґРёРѕ</div></div>'+history_html;
 						$('.vkla.history').html(history_html);
 						sm2_history_init();
 						hist_height = $('.vkla.history').height();
 						console.log(hist_height);
-						//VK.callMethod("resizeWindow", 800, hist_height+64);
+						//VK.callMethod("resizeWindow", 800, hist_height+128);
 					});
 				}
 				else {
@@ -750,13 +747,13 @@
 						hh_img = hh_img.replace('url(','').replace(')','');
 						hh_name = '';
 						$('#'+last_station).find('cufontext').each(function() { hh_name = hh_name+' '+$(this).html(); });
-						history_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+hh_img+'" width="69" height="69"></div><div class="playlist-nazva dintext-font">'+hh_name+' History</div></div><div class="backlink_hh">&larr; Радио</div></div>'+history_html;
+						history_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+hh_img+'" width="69" height="69"></div><div class="playlist-nazva">'+hh_name+' History</div></div><div class="backlink_hh">&larr; Р Р°РґРёРѕ</div></div>'+history_html;
 						
 						$('.vkla.history').html(history_html);
 						sm2_history_init();
 						hist_height = $('.vkla.history').height();
 						console.log(hist_height);
-						//VK.callMethod("resizeWindow", 800, hist_height+64);
+						//VK.callMethod("resizeWindow", 800, hist_height+128);
 					});
 				}
 				$('div[for="history"]').trigger('click');
@@ -771,12 +768,12 @@
 						top100_img = top100_img.replace('url(','').replace(')','');
 						top100_name = '';
 						$('#rr').find('cufontext').each(function() { top100_name = top100_name+' '+$(this).html(); });
-						top100_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+top100_img+'" width="69" height="69"></div><div class="playlist-nazva dintext-font">'+top100_name+' Top 100</div></div><div class="backlink_top100">&larr; Радио</div></div>'+top100_html;
+						top100_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+top100_img+'" width="69" height="69"></div><div class="playlist-nazva">'+top100_name+' Top 100</div></div><div class="backlink_top100">&larr; Р Р°РґРёРѕ</div></div>'+top100_html;
 						$('.vkla.top100').html(top100_html);
 						sm2_top100_init();
 						//hist_height = $('.vkla.top100').height();
 						//console.log(hist_height);
-						//VK.callMethod("resizeWindow", 800, hist_height+64);
+						//VK.callMethod("resizeWindow", 800, hist_height+128);
 					});
 				}
 				else {
@@ -786,13 +783,13 @@
 						top100_img = top100_img.replace('url(','').replace(')','');
 						top100_name = '';
 						$('#'+last_station).find('cufontext').each(function() { top100_name = top100_name+' '+$(this).html(); });
-						top100_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+top100_img+'" width="69" height="69"></div><div class="playlist-nazva dintext-font">'+top100_name+' Top 100</div></div><div class="backlink_top100">&larr; Радио</div></div>'+top100_html;
+						top100_html = '<div class="playlist-zag"><div class="playlist-artist"><div class="playlist-img"><img src="'+top100_img+'" width="69" height="69"></div><div class="playlist-nazva">'+top100_name+' Top 100</div></div><div class="backlink_top100">&larr; Р Р°РґРёРѕ</div></div>'+top100_html;
 						
 						$('.vkla.top100').html(top100_html);
 						sm2_top100_init();
 						//hist_height = $('.vkla.top100').height();
 						//console.log(hist_height);
-						//VK.callMethod("resizeWindow", 800, hist_height+64);
+						//VK.callMethod("resizeWindow", 800, hist_height+128);
 					});
 				}
 				$('div[for="top100"]').trigger('click');
