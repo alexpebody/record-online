@@ -182,7 +182,9 @@ if(isset($_GET['from'])) {
 			function start_play(url) {	// функция запуска станции, Топ100 или Хистори. Параметр url = адрес потока или файла для проигрывания
 				stop_play();	// если мы пытаемся что-то запустить, если уже что-то играем, то надо предварительно остановить что-то прошлое
 				// TNS Counter
-				$.get("http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
+				//$.get("http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
+				$('body').append('<img src="http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-'+radio+'/'+ new Date().getTime()+'" alt="" />');
+				
 					// переинициация эквалайзера при каждом новом звучании
 				var data = [];
 				var waveform = new Waveform({
