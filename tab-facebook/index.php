@@ -302,7 +302,8 @@
 						$('#'+playlist_id).addClass('playing');
 						$('.nowtrack').children('.artist').html($('#'+playlist_id).html());
 						$('.nowtrack').children('.name').html('');
-						
+						// TNS Counter
+						$.get("http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
 					}
 				}
 				

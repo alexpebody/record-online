@@ -181,7 +181,8 @@ div.volume_fun div.volume_back { position: absolute; width: 82px; height: 18px; 
 	#yo .station-img { background-position: -1260px 0px; }
 #trap { }
 	#trap .station-img { background-position: -1428px 0px; }
-	
+#rock { }
+	#rock .station-img { background-position: -1512px 0px; }	
 	
 .inner_pl { position: absolute; top: 0px; width: 680px; height: 422px; overflow: hidden; background-color: #b1c7dd; top: 42px; left: 680px; }
 	.bigimage { width: 340px; height: 363px; float: left; overflow: hidden; background-image: url('station_logo_pic.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; }

@@ -107,6 +107,8 @@ else {
 	histogram_id = '';
 	
 	function start_play(url) {
+		// TNS Counter
+		$.get("http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
 		stop_play();
 		soundManager.createSound({
 			id: 'record',
@@ -208,6 +210,31 @@ else {
   ga('send', 'pageview');
 
 </script>
+<!-- tns-counter.ru -->
+<script type="text/javascript">
+	(function(win, doc, cb){
+		(win[cb] = win[cb] || []).push(function() {
+			try {
+				tnsCounterRadiorecord_ru = new TNS.TnsCounter({
+				'account':'radiorecord_ru',
+				'tmsec': 'radiorecord_total'
+				});
+			} catch(e){}
+		});
+
+		var tnsscript = doc.createElement('script');
+		tnsscript.type = 'text/javascript';
+		tnsscript.async = true;
+		tnsscript.src = ('https:' == doc.location.protocol ? 'https:' : 'http:') + 
+			'//www.tns-counter.ru/tcounter.js';
+		var s = doc.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(tnsscript, s);
+	})(window, this.document,'tnscounter_callback');
+</script>
+<noscript>
+	<img src="//www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF-8/tmsec=radiorecord_total/" width="0" height="0" alt="" />
+</noscript>
+<!--/ tns-counter.ru -->
 <script type="text/javascript">
   var _sf_async_config = { uid: 28407, domain: 'radiorecord.ru', path: '/player/tab8-mini/', title: 'Record Online Player Mini' };
   (function() {

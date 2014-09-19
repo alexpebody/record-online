@@ -72,7 +72,7 @@ if(isset($_GET['from'])) {
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="dub"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Dubstep</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/dub_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="trap"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Trap</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/trap_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="teo"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Record Hardstyle</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/teo_320</div></div>
-						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="yo"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Yo! FM</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/yo_320</div></div>
+						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="rock"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Rock Radio</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/rock_320</div></div>
 						<div class="station" itemscope itemtype="http://schema.org/BroadcastService" id="pump"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Pump'n'Klubb</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/pump_320</div></div>
 						<div style="display:none;" class="station" itemscope itemtype="http://schema.org/BroadcastService" id="rock"><div class="station-img"></div><div class="station-text"><div itemprop="name" class="station-name">Rock Radio</div><div class="station-track"></div></div><div class="hidden" itemprop="url">http://air.radiorecord.ru:8102/rock_320</div></div>
 						
@@ -181,7 +181,8 @@ if(isset($_GET['from'])) {
 			
 			function start_play(url) {	// функция запуска станции, Топ100 или Хистори. Параметр url = адрес потока или файла для проигрывания
 				stop_play();	// если мы пытаемся что-то запустить, если уже что-то играем, то надо предварительно остановить что-то прошлое
-				
+				// TNS Counter
+				$.get("http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
 					// переинициация эквалайзера при каждом новом звучании
 				var data = [];
 				var waveform = new Waveform({
@@ -618,6 +619,31 @@ if(isset($_GET['from'])) {
 	<a href="http://metrika.yandex.ru/stat/?id=176199&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/176199/3_0_4458E0FF_2438C0FF_1_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a><!-- /Yandex.Metrika informer --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter176199 = new Ya.Metrika({id:176199, webvisor:false, clickmap:false, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/176199" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 	<a href="https://plus.google.com/115145545973978318825?rel=author">Google</a>
+	<!-- tns-counter.ru -->
+	<script type="text/javascript">
+		(function(win, doc, cb){
+			(win[cb] = win[cb] || []).push(function() {
+				try {
+					tnsCounterRadiorecord_ru = new TNS.TnsCounter({
+					'account':'radiorecord_ru',
+					'tmsec': 'radiorecord_total'
+					});
+				} catch(e){}
+			});
+
+			var tnsscript = doc.createElement('script');
+			tnsscript.type = 'text/javascript';
+			tnsscript.async = true;
+			tnsscript.src = ('https:' == doc.location.protocol ? 'https:' : 'http:') + 
+				'//www.tns-counter.ru/tcounter.js';
+			var s = doc.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(tnsscript, s);
+		})(window, this.document,'tnscounter_callback');
+	</script>
+	<noscript>
+		<img src="//www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF-8/tmsec=radiorecord_total/" width="0" height="0" alt="" />
+	</noscript>
+	<!--/ tns-counter.ru -->
 </div>
 <?if(isset($_GET['from']) && ($_GET['from']!='index')):?>
 <script type="text/javascript">
