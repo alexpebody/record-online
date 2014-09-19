@@ -341,9 +341,17 @@ if(isset($_GET['from'])) {
 			}
 
 			function start_socket() {
-				if("WebSocket" in window) {
+				var websocketError = function(msg) {
+					console.log(msg);
+					update_track_inline();
+					setInterval(update_track_inline, 25000);
+				};
+
+				if(window.WebSocket) {
 					var timer;
-					var ws=new WebSocket("ws://stat.radiorecord.ru:8047/record");
+					var ws=new WebSocket(
+						("https:" == location.protocol ? "wss" : "ws") + "://stat.radiorecord.ru:8047/record"
+					);
 					ws.onopen=function() {
 						timer=window.setInterval(function() {
 							var date = new Date();
@@ -358,19 +366,15 @@ if(isset($_GET['from'])) {
 					
 					ws.onclose=function() {
 						window.clearTimeout(timer);
-						console.log("Switch from websocket, because browser close websocket connection.");
-						update_track_inline();
-						setInterval("update_track_inline();",25000);
+						websocketError("Switch from websocket, because browser close websocket connection.");
 					};
 					
 					$(document).on("stationChange", function() {
 						console.log('{"msg": "switch", "data": "'+radiof+'"}');
-						if(("WebSocket" in window) && ws.readyState == 1) {	ws.send('{"msg": "switch", "data": "'+radiof+'"}'); }
+						if(window.WebSocket && ws.readyState == 1) {	ws.send('{"msg": "switch", "data": "'+radiof+'"}'); }
 					});
 				} else {
-					console.log("Switch from websocket, because browser does not support websocket.");
-					update_track_inline();
-					setInterval("update_track_inline();",5000);
+					websocketError("Switch from websocket, because browser does not support websocket.");
 				}
 			}
 
