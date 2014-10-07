@@ -19,6 +19,7 @@ if(isset($_GET['radio'])) {
 		case 'trap': { $st = $_GET['radio']; break; }
 		case 'vip': { $st = $_GET['radio']; break; }
 		case 'yo': { $st = $_GET['radio']; break; }
+		case 'rock': { $st = $_GET['radio']; break; }
 		default: { $st = 'rr'; }
 
 	}
@@ -76,6 +77,7 @@ else {
 	st['yo']	= Array();	st['yo']['name']='yo';	st['yo']['l32']	= 'http://air.radiorecord.ru:8102/yo_aac?type=.flv';	st['yo']['l128']	= 'http://air.radiorecord.ru:8102/yo_128';	st['yo']['l320']	= 'http://air.radiorecord.ru:8102/yo_320';
 	st['deep']	= Array();	st['deep']['name']='deep';	st['deep']['l32']	= 'http://air.radiorecord.ru:8102/deep_aac?type=.flv';	st['deep']['l128']	= 'http://air.radiorecord.ru:8102/deep_128';	st['deep']['l320']	= 'http://air.radiorecord.ru:8102/deep_320';
 	st['trap']	= Array();	st['trap']['name']='trap';	st['trap']['l32']	= 'http://air.radiorecord.ru:8102/trap_aac?type=.flv';	st['trap']['l128']	= 'http://air.radiorecord.ru:8102/trap_128';	st['trap']['l320']	= 'http://air.radiorecord.ru:8102/trap_320';
+	st['rock']	= Array();	st['rock']['name']='rock';	st['rock']['l32']	= 'http://air.radiorecord.ru:8102/rock_aac?type=.flv';	st['rock']['l128']	= 'http://air.radiorecord.ru:8102/rock_128';	st['rock']['l320']	= 'http://air.radiorecord.ru:8102/rock_320';
 			
 			
 			
