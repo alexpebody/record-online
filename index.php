@@ -460,6 +460,7 @@ if(isset($_GET['from'])) {
 					$('.inner_pl').animate({left: "0"},550,	function() { // мягко открываем поле с детальной страницей радио и по концу анимации
 						//update_track_inline();	// запускаем обновление текущего трека вне таймаута
 					});
+					$('.block-header').html('<i class="fa fa-arrow-left"></i>'+$(this).find('.station-name').html()+'<?if($from):?><span class="icon-player-block-undock"></span><?endif;?>');
 				}
 				else {
 					// заполняем глобальные переменные
