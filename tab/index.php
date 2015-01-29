@@ -237,21 +237,21 @@
 			<div class="vkla history"></div>
 			<div class="vkla top100"></div>
 			<div class="vkla rshop">
-				<iframe id='rshop-iframe' src="http://www.radiorecord.ru/player/tab/rshop-catalog.php" width="710" style="width: 710px; min-height: 738px; overflow-x: hidden; overflow-y: scroll; border: none;"></iframe>
+				<iframe id='rshop-iframe' src="//www.radiorecord.ru/player/tab/rshop-catalog.php" width="710" style="width: 710px; min-height: 738px; overflow-x: hidden; overflow-y: scroll; border: none;"></iframe>
 			</div>
 		</td>
 		
 		</table>
-		<script src="http://www.radiorecord.ru/i/js/openapi.js"></script>
-		<script src="http://vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
+		<script src="//www.radiorecord.ru/i/js/openapi.js"></script>
+		<script src="//vk.com/js/api/xd_connection.js?2" type="text/javascript"></script>
 		<script>VK.init({apiId: 3733168, onlyWidgets: true});</script>
-		<script src="http://www.radiorecord.ru/i/js/jquery-1.7.2.min.js"></script>
-		<script src="http://www.radiorecord.ru/i/js/jquery-ui.min.js"></script>
-		<script src="http://www.radiorecord.ru/i/js/jquery.easing.1.3.js"></script>
-		<script src="http://www.radiorecord.ru/i/js/jquery.Storage.js"></script>
+		<script src="//www.radiorecord.ru/i/js/jquery-1.7.2.min.js"></script>
+		<script src="//www.radiorecord.ru/i/js/jquery-ui.min.js"></script>
+		<script src="//www.radiorecord.ru/i/js/jquery.easing.1.3.js"></script>
+		<script src="//www.radiorecord.ru/i/js/jquery.Storage.js"></script>
 		<script src="js/soundmanager2.js"></script>
 		<script>
-			soundManager.url = 'http://www.radiorecord.ru/player/tab/js/swf/';
+			soundManager.url = '//www.radiorecord.ru/player/tab/js/swf/';
 			soundManager.flashVersion = 9; // optional: shiny features (default = 8)
 			soundManager.useFlashBlock = false; // optionally, enable when you're ready to dive in
 			soundManager.debugMode = false;
@@ -646,7 +646,7 @@
 			var frame = document.getElementById('my-frame');
 			var queryString = this.location.search;
 			queryString = queryString.substr(1); //remove first '?' symbol from query string
-			var src = 'http://radario.ru/vk/embedded-app?appKey=0387185ffb814b188d81dbff4188ffb2';
+			var src = '//radario.ru/vk/embedded-app?appKey=0387185ffb814b188d81dbff4188ffb2';
 			frame.src = src + '&' + queryString;
 		}
 		if (window.addEventListener) {
@@ -764,7 +764,7 @@
 				$(this).addClass('active');
 				$('.radio-pages .histor').removeClass('active');
 				if (!last_station) {
-					$.get('http://www.radiorecord.ru/radio/top100/detail2.php?station=rr', function(top100_html) {
+					$.get('//www.radiorecord.ru/radio/top100/detail2.php?station=rr', function(top100_html) {
 						var top100_img = $('#rr .station-img').css('background-image');
 						top100_img = top100_img.replace('url(','').replace(')','');
 						top100_name = '';
@@ -779,7 +779,7 @@
 				}
 				else {
 					console.log(radio);
-					$.get('http://www.radiorecord.ru/radio/top100/detail2.php?station='+last_station, function(top100_html) {
+					$.get('//www.radiorecord.ru/radio/top100/detail2.php?station='+last_station, function(top100_html) {
 						var top100_img = $('#'+last_station+' .station-img').css('background-image');
 						top100_img = top100_img.replace('url(','').replace(')','');
 						top100_name = '';
