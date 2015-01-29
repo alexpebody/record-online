@@ -182,8 +182,8 @@ if(isset($_GET['from'])) {
 			function start_play(url) {	// функция запуска станции, Топ100 или Хистори. Параметр url = адрес потока или файла для проигрывания
 				stop_play();	// если мы пытаемся что-то запустить, если уже что-то играем, то надо предварительно остановить что-то прошлое
 				// TNS Counter
-				//$.get("http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
-				$('body').append('<img src="http://www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-'+radio+'/'+ new Date().getTime()+'" alt="" />');
+				//$.get("//www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-"+radio+"/"+ new Date().getTime(), function() {});
+				$('body').append('<img src="//www.tns-counter.ru/V13a****radiorecord_ru/ru/UTF8/tmsec=radiorecord_player-'+radio+'/'+ new Date().getTime()+'" alt="" />');
 				
 					// переинициация эквалайзера при каждом новом звучании
 				var data = [];
@@ -500,11 +500,11 @@ if(isset($_GET['from'])) {
 			var api = pane.data('jsp');	// делаем привязку API
 				// конец плагина скроллинга
 			
-			history_day = 'today'; // для истории показываем по-умолчанию текущий день
+			var history_day = 'today'; // для истории показываем по-умолчанию текущий день
 			
 			$(document).on('click', '.aday', function() {	// если кликаем на какой-то день
 				history_day = $(this).attr('value');	// то выбранный день берется из value кликнутого дня
-				$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day='+history_day}).done(function(histordata) {	// делаем нежный ajax-Запрос
+				$.ajax({url: '//history.radiorecord.ru/index-flat.php?station='+radio+'&day='+history_day}).done(function(histordata) {	// делаем нежный ajax-Запрос
 					var pane = $('.tab_content');	// чтоб не забыть)
 					var api = pane.data('jsp');	// привязываем снова api
 					api.getContentPane().html(histordata);	// и через магию плагина обновляем содержимое блока на ответ ajax'а
@@ -529,7 +529,7 @@ if(isset($_GET['from'])) {
 						break;
 					}
 					case 'tabhistor': {	// если хистори
-						$.ajax({url: 'http://history.radiorecord.ru/index-flat.php?station='+radio+'&day=today'}).done(function(histordata) {	// ну и так понятно... см. выше
+						$.ajax({url: '//history.radiorecord.ru/index-flat.php?station='+radio+'&day=today'}).done(function(histordata) {	// ну и так понятно... см. выше
 							var pane = $('.tab_content');
 							var api = pane.data('jsp');
 							api.getContentPane().html(histordata);
